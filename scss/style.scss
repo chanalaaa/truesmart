@@ -5,7 +5,7 @@ body {
 }
 
 //$xxs: "screen and (max-width: 375px)";
-$xs: "screen and (min-width: 375px)";
+$sm: "screen and (min-width: 375px)";
 $md: "screen and (min-width: 768px)";
 $lg: "screen and (min-width: 960px)";
 @mixin clearfix {
@@ -27,6 +27,12 @@ $lg: "screen and (min-width: 960px)";
     @media #{$lg} {
         font-size: 80px;
     }
+}
+
+.columns{
+  
+    padding: 0px;
+  
 }
 
 //@import 'nav';

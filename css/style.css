@@ -67,6 +67,25 @@ body {
     .row {
       font-size: 80px; } }
 
+.columns {
+  padding: 0px; }
+
+.content-pre {
+  width: 100%; }
+
+.content-pre_block {
+  max-width: 100%;
+  height: 200px;
+  position: relative;
+  background-color: gray; }
+
+.content-pre_info {
+  padding: 20px; }
+  .content-pre_info p {
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: normal; }
+
 .menu {
   background: #1abc9c;
   display: none;
@@ -99,8 +118,8 @@ body {
   background: none;
   color: #333;
   width: 100%;
-  text-align: center;
-  padding: 10px 0;
+  text-align: right;
+  padding: 20px 0 0;
   font-size: 25px; }
   .menu-toggle a {
     text-decoration: none;
