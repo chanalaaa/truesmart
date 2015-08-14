@@ -1,51 +1,48 @@
 .menu {
-  background: #1abc9c;
-  display: none;
-  width: 100%;
-}
-
-.menu ul {
-  font-family: 'roboto', serif;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.menu ul li {
-  color: #fff;
-  font-size: 12px;
-  letter-spacing: 2px;
-  padding: 15px 0;
-  text-transform: uppercase;
-}
-
-.menu ul li:hover { background: #16a085; }
-
-.menu a {
-  text-decoration: none;
-  color: #fff;
+    background: #1abc9c;
+    display: none;
+    width: 100%;
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    ul {
+        font-family: 'roboto', serif;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    ul li {
+        color: #fff;
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding: 15px 0;
+        text-transform: uppercase;
+        &:hover {
+            background: #16a085;
+        }
+    }
 }
 
 .menu-toggle {
-  background: none;
-  color: #333;
-  width: 100%;
-  text-align: center;
-  padding: 10px 0;
-  font-size: 25px;
-}
-
-.menu-toggle a {
-  text-decoration: none;
-  color: #333;
+    background: none;
+    color: #333;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 25px;
+    a {
+        text-decoration: none;
+        color: #333;
+    }
 }
 
 .about {
-  width: 100%;
-  font-family: 'roboto', serif;
-  font-size: 40px;
-  margin-top: 100px;
-  text-align: center;
-  color: #333;
+    width: 100%;
+    font-family: 'roboto', serif;
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: center;
+    color: #333;
 }
