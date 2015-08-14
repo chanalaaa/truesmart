@@ -23,9 +23,14 @@
 <div class="content-block">
     <div class="row">
         <div class="small-12 columns">
-            <div class="content-pre_block">
+            <div class="content-pre_block1">
                 <div class="content-pre_info">
-                    <p>ซิตีแผดเผาลามะสุนทรีย์ โมจิแจม ซ้อเนิร์สเซอรี่สติ๊กเกอร์แจ๊สวอลนัต มอลล์บ๊อบไลน์เซนเซอร์ เห่ยซูม สปอตสแตนเลสเสือโคร่ง เบบี้บาร์บีคิวแช่แข็ง ไทเฮาเจ็ตปิกอัพ ฟิวเจอร์กลาสนอมินีเวิลด์ น้องใหม่ตื้บบรรพชนราชบัณฑิตยสถานคอนแทค แบล็กแฟรีรายชื่อ Home</p>
+                    <img id="ct_logo" src="img/content/ct_logo1.png" alt="more...">
+                    <div id="ct_word">
+                        <span id="ct_highlight"> บริบทเมืองใหม่ของไลฟ์สไตล์คนเมือง</span>
+                        
+                        
+                    </div>
                 </div>
                 <div class="content-toggle_btn">
                     <a href="javascript:;"><img src="img/content/expand_btn.png" alt="more..."></a>
@@ -46,7 +51,7 @@
 <div class="content-block">
     <div class="row">
         <div class="small-12 columns">
-            <div class="content-pre_block">
+            <div class="content-pre_block2">
                 <div class="content-pre_info">
                     <p>ไชน่าโกเต็กซ์ตุ๊ดโจ๋เอาท์ นรีแพทย์มยุราภิรมย์ซีน โรแมนติก ไฮเทคโบกี้มหาอุปราชาวอล์คเซรามิก เรซินคอปเตอร์แอโรบิคมอลล์ เช็งเม้ง ฟอยล์โรลออนกับดักบลอนด์ หลวงปู่แคร์ด็อกเตอร์หลวงพี่</p>
                 </div>
