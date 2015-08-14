@@ -46,13 +46,31 @@ table {
   border-spacing: 0; }
 
 @font-face {
-  font-family: 'supermarket';
-  src: url("fonts/supermarket-webfont.eot");
-  src: url("fonts/supermarket-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/supermarket-webfont.woff2") format("woff2"), url("fonts/supermarket-webfont.woff") format("woff"), url("fonts/supermarket-webfont.ttf") format("truetype");
+  font-family: 'true_b';
+  src: url("fonts/tbold-webfont.eot");
+  src: url("fonts/tbold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/tbold-webfont.woff2") format("woff2"), url("fonts/tbold-webfont.woff") format("woff"), url("fonts/tbold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'true_bs';
+  src: url("fonts/tboldspecial-webfont.eot");
+  src: url("fonts/tboldspecial-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/tboldspecial-webfont.woff2") format("woff2"), url("fonts/tboldspecial-webfont.woff") format("woff"), url("fonts/tboldspecial-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'true_l';
+  src: url("fonts/tlight-webfont.eot");
+  src: url("fonts/tlight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/tlight-webfont.woff2") format("woff2"), url("fonts/tlight-webfont.woff") format("woff"), url("fonts/tlight-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'true_m';
+  src: url("fonts/tmedium-webfont.eot");
+  src: url("fonts/tmedium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/tmedium-webfont.woff2") format("woff2"), url("fonts/tmedium-webfont.woff") format("woff"), url("fonts/tmedium-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 body {
-  font-family: 'supermarket'; }
+  font-family: 'true_m'; }
 
 #wrapper {
   overflow: hidden;
@@ -103,7 +121,7 @@ body {
     text-decoration: none;
     color: #fff; }
   .content-toggle ul {
-    font-family: 'roboto', serif;
+    font-family: 'true_m';
     list-style: none;
     margin: 0;
     padding: 0;
