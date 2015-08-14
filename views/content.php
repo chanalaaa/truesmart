@@ -154,10 +154,11 @@
         <div class="small-12 columns">
             <div class="content-pre_block4">
                 <div class="content-pre_info">
-                    <img id="ct_logo" src="img/content/ct_logo3.png" alt="more...">
+                    <img id="ct_logo" src="img/content/ct_logo4.png" alt="more...">
                     <div id="ct_word">
-                        <span id="ct_highlight"> สมาร์ทโซลูชั่นของทุกธุรกิจ</span>
-                        <br>เซอร์วิสตอบโจทย์พร้อมใช้งานจริง
+                        <span id="ct_highlight"> ชีวิตประจำวันกำลังจะเปลี่ยนไป...</span>
+                        <br>ด้วย Gadget ที่ตอบโจทย์ทั้งในด้าน
+                        <br> Function และ Design
                     </div>
                 </div>
                 <div class="content-toggle_btn">
@@ -168,36 +169,45 @@
                 <ul>
                     <li>
                         <div id="ctg_word">
-                            <div id="ctg_title">Smart Cloud Business</div>
+                            <div id="ctg_title">Unicycle 2 wheel Scooter</div>
                             <p>
-                                ไม่ว่าธุรกิจพันล้านหรือ SMEs ก็สามารถ ใช้งานฮาร์ดแวร์ ซอฟท์แวร์ และ Cloud Computing โดยไม่ต้องลงทุน และเสียเวลาวางระบบเอง ทุกคนสามารถ ใช้งานร่วมกันบน Cloud Server ผ่าน อินเทอร์เน็ตได้อย่างง่ายดาย
+                                โลดแล่นอย่างอิสระทุกที่ ด้วย พาหนะส่วนตัวแบบพกพา ดีไซน์ล้ำ ขับเคลื่อนด้วยพลังงานไฟฟ้าและ มอเตอร์ประสิทธิภาพสูง มีความปลอดภัย เหมาะกับทุกเพศ ทุกวัย
                             </p>
                         </div>
                     </li>
                     <li>
                         <div id="ctg_word">
-                            <div id="ctg_title">True IDC Chromebook
+                            <div id="ctg_title">Pomo Watch
                             </div>
                             <p>
-                                หมดปัญหาการรอเข้าใช้งานคอมพิวเตอร์ เพียงเปิดเครื่องก็ใช้งานได้ทันที แค่มี Google Accountไม่ต้องติดตั้งโปรแกรม
+                                ตอบโจทย์คุณหนูๆ กับนาฬิกาที่สามารถรับและโทร ได้ในเครื่องเดียว มาพร้อม GPS เซ็นเซอร์ตรวจจับนาฬิกาหลุด กำหนดพื้นที่ปลอดภัย และรายงาน อุบัติเหตุทันที เหนือกว่าด้วยเทคโนโลยี ป้องกันยุงด้วยคลื่นเสียงพิเศษ
                             </p>
                         </div>
                     </li>
                     <li>
                         <div id="ctg_word">
-                            <div id="ctg_title">Office 365
+                            <div id="ctg_title">Drone Parrot Bebop
                             </div>
                             <p>
-                                สะดวกและง่ายขึ้น ให้คุณทำงานได้ ทั้งคีย์บอร์ด เมาส์ปากกา และทัชสกรีน ไม่ว่าจะเป็นเครื่อง PC, Mac, สมาร์ทโฟน และแท็บเล็ต พร้อมระบบแชร์ข้อมูล ร่วมกัน พร้อมบริการในรูปแบบ Software as a Service ช่วยลดค่าใช้ จ่ายด้านซอฟแวร์และการบริการจัดการ ระบบ mail และ storage
+                                คอปเตอร์บังคับ มาพร้อมกล้อง 14 ล้านพิกเซล และ Video Full HD ควบคุมด้วยสมาร์ทโฟนหรือแท็บเล็ต บินได้นานกว่า 15 นาที เหนือกว่าด้วย ระบบ GPS : Return to Home และระบบบินขึ้นลงกึ่งอัตโนมัติ ิ
                             </p>
                         </div>
                     </li>
                     <li>
                         <div id="ctg_word">
-                            <div id="ctg_title">VDO Conference
+                            <div id="ctg_title">Track R
                             </div>
                             <p>
-                                บริการ One Stop Service ที่ทันสมัยที่สุด ให้คุณจัดประชุมขนาดใหญ่ได้ง่ายผ่าน บราวเซอร์โดยไม่ต้องลงโปรแกรม รองรับทุกอุปกรณ์ ทุกระบบปฏิบัติการ ด้วยภาพเสียงคมชัด
+                                หมดปัญหาของหาย! ด้วยอุปกรณ์ค้นหา แจ้งเตือน พร้อม ระบุตำแหน่งสิ่งของ สาามารถเชื่อมต่อกับ สมาร์ทโฟนของคุณ รองรับทั้ง iOS และ Android
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="ctg_word">
+                            <div id="ctg_title">PUKKA
+                            </div>
+                            <p>
+                                Electric Unicycle Scooters รถไฟฟ้าล้อเดียวยานพาหนะรูปแบบใหม่ที่ทำให้คุณไปได้ทุกที่ ทรงตัวอัตโนมัติด้วย Gyroscope ควบคุมการเคลื่อนที่ได้เพียงแค่เอียงตัว เล่นได้ทุกพื้นผิวและขึ้น-ลงเนินได้ถึง15 องศา วิ่งได้กว่า 20 กม.
                             </p>
                         </div>
                     </li>

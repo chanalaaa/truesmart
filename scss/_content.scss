@@ -10,7 +10,7 @@
     @mixin content($uri) {
         @include bg_img($uri);
         max-width: 100%;
-        height: 200px;
+        height: 218px;
         position: relative;
         //background-color: gray;
         .content-pre_block_opacity {
@@ -134,10 +134,18 @@
             height: 58px;
         }
     }
+
+    .content-pre_block4 {
+        @include content("../img/content/4.jpg");
+        #ct_logo {
+            width: 206px;
+            height: 58px;
+        }
+    }
     
     .content-pre_info {
         position: relative;
-        padding: 40px 10px 10px 30px;
+        padding: 30px 10px 10px 30px;
         height: 80%;
         letter-spacing: .8px;
         color: #FFF;
@@ -148,6 +156,7 @@
         margin-top: 15px;
         font-size: 22px;
         font-weight: normal;
+        line-height: 20px;
     }
     
     #ct_highlight {
