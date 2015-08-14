@@ -357,9 +357,35 @@ div#header_word_footer {
     height: 100%;
     width: 100%;
     height: 800px;
-    position: absolute;
     background-size: 1200px;
     background-position: 43% 15%; }
+  .info .info2-block {
+    background-image: url("../img/content/info/info_img2.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    bottom: 190px;
+    z-index: 30;
+    background-size: 1400px;
+    background-position: 62% 20%; }
+  .info .info3-block {
+    background-image: url("../img/content/info/info_img3.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 20;
+    background-position: 62% 15%; }
 
 .info1_info {
   width: 90%;
@@ -369,9 +395,22 @@ div#header_word_footer {
   font-size: 30px;
   color: #FFF;
   margin: 0 auto;
-  margin-top: 170px; }
+  padding-top: 170px; }
   .info1_info #info1_highlight {
     margin-top: 20px;
+    font-family: 'true_b';
+    font-size: 32px; }
+
+.info2_info {
+  width: 90%;
+  height: 400px;
+  text-align: center;
+  font-family: 'true_l';
+  font-size: 30px;
+  color: #FFF;
+  margin: 0 auto;
+  padding-top: 200px; }
+  .info2_info #info2_highlight {
     font-family: 'true_b';
     font-size: 32px; }
 

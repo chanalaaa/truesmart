@@ -194,9 +194,31 @@
             @include bg_img("../img/content/info/info_img1.png");
             width: 100%;
             height: 800px;
-            position: absolute;
+            // position: absolute;
+            // z-index: 10;
             background-size: 1200px;
             background-position: 43% 15%;
+        }
+        .info2-block {
+            @include bg_img("../img/content/info/info_img2.png");
+            width: 100%;
+            height: 800px;
+            position: absolute;
+            //top: 402px;
+            bottom: 190px;
+            z-index: 30;
+            background-size: 1400px;
+            background-position: 62% 20%;
+        }
+        .info3-block {
+            @include bg_img("../img/content/info/info_img3.png");
+            width: 100%;
+            height: 800px;
+            position: absolute;
+            bottom: 0px;
+            z-index: 20;
+            //background-size: 1200px;
+            background-position: 62% 15%;
         }
     }
     
@@ -208,9 +230,27 @@
         font-size: 30px;
         color: #FFF;
         margin: 0 auto;
-        margin-top: 170px;
+        padding-top: 170px;
+        //margin-top: 170px;
         #info1_highlight {
             margin-top: 20px;
+            font-family: 'true_b';
+            font-size: 32px;
+        }
+    }
+    
+    .info2_info {
+        width: 90%;
+        height: 400px;
+        text-align: center;
+        font-family: 'true_l';
+        font-size: 30px;
+        color: #FFF;
+        margin: 0 auto;
+        padding-top: 200px;
+        //margin-top: 170px;
+        #info2_highlight {
+            //margin-top: 20px;
             font-family: 'true_b';
             font-size: 32px;
         }

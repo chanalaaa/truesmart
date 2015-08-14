@@ -280,6 +280,20 @@
             </div>
         </div>
     </div>
+    <div class="info2-block">
+        <div class="info2_info">
+            <p>ถึงเวลาแล้ว...ที่เราจะร่วม
+                <br>
+                <div id="info2_highlight">
+                    เปลี่ยนสังคมชาวทรู
+                    <br> ให้เป็นสังคม
+                    <br> Together, Smarter
+                </div>
+               ด้วยกัน
+        </div>
+    </div>
+    <div class="info3-block">
+    </div>
 </div>
 <div class="about">blah blah blah</div>
 <!-- SCRIPT ******************************** -->
