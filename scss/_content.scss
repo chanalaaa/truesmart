@@ -24,6 +24,7 @@
     
     $red_true: #EC1C24;
     $black_true: #414042;
+    $gray_true: #6D6E71;
     // Header //////////////////////////////////
     .header {
         max-width: 100%;
@@ -134,7 +135,6 @@
     #ct_word {
         //font-family: 'true_m';
         margin-top: 15px;
-        //letter-spacing: 1px;
         font-size: 24px;
         font-weight: normal;
     }
@@ -145,32 +145,25 @@
     }
     
     // End Content /////////////////////////////////////
-
     // Content-toggle //////////////////////////////////
     .content-toggle {
-        background: #1abc9c;
+        //background: #1abc9c;
         display: none;
         width: 100%;
-        a {
-            text-decoration: none;
-            color: #fff;
-        }
         ul {
-            font-family: 'true_m';
             list-style: none;
             margin: 0;
             padding: 0;
-            text-align: left;
             li {
-                color: #fff;
-                width: 80%;
+                color: $gray_true;
+                width: 85%;
                 padding: 15px 0px;
                 margin-left: 35px;
                 padding-left: 1em;
-                text-indent: -.7em;
+                //text-indent: -.7em;
                 //font-size: 2vmax;
-                font-size: 13px;
-                letter-spacing: 2px;
+                //font-size: 13px;
+                //letter-spacing: 2px;
                 &:before {
                     content: "\2022";
                     font-size: 40px;
@@ -191,6 +184,26 @@
                 }
             }
         }
+    }
+    
+    #ctg_word {
+        font-family: 'true_m';
+        font-size: 26px;
+        color: $gray_true;
+        text-align: left;
+        letter-spacing: .8px;
+        padding-left: 30px;
+        p{
+          margin-top: 20px;
+        }
+    }
+    
+    #ctg_title {
+        font-family: 'true_b';
+        font-size: 31px;
+        letter-spacing: 0px;
+        margin-top: -10px;
+        color: $black_true;
     }
     
     .content-toggle_btn {

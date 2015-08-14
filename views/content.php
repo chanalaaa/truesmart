@@ -28,8 +28,6 @@
                     <img id="ct_logo" src="img/content/ct_logo1.png" alt="more...">
                     <div id="ct_word">
                         <span id="ct_highlight"> บริบทเมืองใหม่ของไลฟ์สไตล์คนเมือง</span>
-                        
-                        
                     </div>
                 </div>
                 <div class="content-toggle_btn">
@@ -38,11 +36,23 @@
             </div>
             <div class="content-toggle">
                 <ul>
-                    <li><a href="#">I. Home</a></li>
-                    <li><a href="#">II. About</a></li>
-                    <li><a href="#">III. Services</a></li>
-                    <li><a href="#">IV. Blog</a></li>
-                    <li><a href="#">VI. Contact</a></li>
+                    <li>
+                        <div id="ctg_word">
+                            <div id="ctg_title">Smart Intelligence
+                                <br>Command Center</div>
+                            <p>
+                                ระบบสั่งการอัจฉริยะ เมื่อเกิดอุบัติเหตุ บนถนน กล้อง cctv จะเตือนไปยังหน่วยงาน ที่เกี่ยวข้อง เพื่อให้ความช่วยเหลือได้ ทันท่วงที รวมไปถึงการเพิ่มระบบขนส่ง มวลชน รองรับคนที่ต้องการเปลี่ยนแผน การเดินทาง</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="ctg_word">
+                            <div id="ctg_title">Smart Car Parking
+                            </div>
+                            <p>
+                                ระบบจอดรถอัจฉริยะ เชื่อมระบบกับ กล้องcctv ตรวจสอบป้ายทะเบียนรถ กับฐานข้อมูล เพื่อเปิด-ปิดไม้กั้นอัตโนมัติ เพิ่มความปลอดภัยในหมู่บ้าน และอาคาร สำนักงาน
+                            </p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
