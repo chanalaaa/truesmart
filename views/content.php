@@ -216,6 +216,58 @@
         </div>
     </div>
 </div>
+<!-- SMART HOME ************************** -->
+<div class="content-block">
+    <div class="row">
+        <div class="small-12 columns">
+            <div class="content-pre_block5">
+                <div class="content-pre_info">
+                    <img id="ct_logo" src="img/content/ct_logo5.png" alt="more...">
+                    <div id="ct_word">
+                        <span id="ct_highlight"> เปลี่ยนบ้านคุณให้เป็นบ้านอัจฉริยะ</span>
+                        <br>ด้วยเทคโนโลยีที่เชื่อมต่อชีวิตและ
+                        <br> ไลฟ์สไตล์คอนเวอร์เจนซ์ของคุณ
+                        <br> กับบ้านอย่างเต็มรูปแบบ
+                    </div>
+                </div>
+                <div class="content-toggle_btn">
+                    <a href="javascript:;"><img src="img/content/expand_btn.png" alt="more..."></a>
+                </div>
+            </div>
+            <div class="content-toggle">
+                <ul>
+                    <li>
+                        <div id="ctg_word">
+                            <div id="ctg_title">Home Automation</div>
+                            <p>
+                                ระบบสั่งงานอุปกรณ์ไฟฟ้าในบ้าน ผ่านแอพพลิเคชั่น
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="ctg_word">
+                            <div id="ctg_title">Home Entertainment
+                            </div>
+                            <p>
+                                เชื่อมต่อความบันเทิง คุณภาพ HD ! ทั้งภาพยนตร์ระดับฮอลีวู้ด ละครดัง ซีรี่ย์ฮิต เกมมันส์ๆ คุณสามารถสั่งงานเปิด-ปิด-เปลี่ยนช่อง
+                                <span id="ctg_b">TrueVisions </span>ด้วยเสียงผ่านแอพพลิเคชั่น และทุกความสนุกของคุณจะไม่สะดุด อีกต่อไป ด้วยบริการจาก <span id="ctg_b">TrueMaxx</span> ให้คุณสนุกไร้ขีดจำกัดกับทุกความบันเทิง บนทุกแพลตฟอร์ม
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="ctg_word">
+                            <div id="ctg_title">Home Monitoring
+                            </div>
+                            <p>
+                                ปลอดภัยอุ่นใจแม้ไม่อยู่บ้าน… ด้วยนวัตกรรมเชื่อมโยงระบบรักษา ความปลอดภัยทั้งในและนอกบ้าน โดยระบบจะแจ้งเตือนถึงเราผ่าน แอพพลิเคชั่น สามารถแจ้งเหตุไปยังสถานี ตำรวจใกล้บ้านได้ง่ายๆ ไม่ต้องเสียเวลา
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 <!--
 <div class="content-block">
     <div class="row">

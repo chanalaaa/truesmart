@@ -126,7 +126,7 @@
             height: 47px;
         }
     }
-
+    
     .content-pre_block3 {
         @include content("../img/content/3.jpg");
         #ct_logo {
@@ -134,11 +134,19 @@
             height: 58px;
         }
     }
-
+    
     .content-pre_block4 {
         @include content("../img/content/4.jpg");
         #ct_logo {
             width: 206px;
+            height: 58px;
+        }
+    }
+    
+    .content-pre_block5 {
+        @include content("../img/content/5.jpg");
+        #ct_logo {
+            width: 230px;
             height: 58px;
         }
     }
@@ -170,10 +178,12 @@
         //background: #1abc9c;
         display: none;
         width: 100%;
+        margin-bottom: 20px;
         ul {
             list-style: none;
             margin: 0;
             padding: 0;
+
             li {
                 color: $gray_true;
                 width: 85%;
@@ -191,7 +201,7 @@
                     position: relative;
                     line-height: 0.1;
                     padding-right: .25em;
-                    top: 0.25em;
+                    top: 0.32em;
                 }
                 &:hover {
                     //background: #16a085;
@@ -224,6 +234,10 @@
         letter-spacing: 0px;
         margin-top: -10px;
         color: $black_true;
+    }
+    
+    #ctg_b {
+        font-family: 'true_b';
     }
     
     .content-toggle_btn {
