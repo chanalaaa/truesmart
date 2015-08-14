@@ -6,8 +6,15 @@
         </div>
     </div>
     <div class="header_info">
-        <p>ครั้งแรกในไทยกับ<br>
-สุดยอดเทคโนโลยีอันดับ 1 </p>
+        <div class="header_info_block">
+            <p id="header_title">ครั้งแรกในไทยกับ
+                <br> สุดยอดเทคโนโลยีอันดับ 1 </p>
+            <div id="header_word">ที่จะ
+                <span class="header_highlight"> เปลี่ยนชีวิต เปลี่ยนเมืองไทย </span><br>
+                ให้เป็น
+                <span class="header_highlight"> SMART LIFE, SMART CITY </span>
+            </div>
+        </div>
     </div>
 </div>
 <div class="content-block">

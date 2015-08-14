@@ -41,13 +41,29 @@
         font-family: 'true_b';
         width: 100%;
         position: relative;
-        p {
-            width: 100%;
-            color: #414042;
-            text-align: center;
-            font-size: 41px;
+        .header_info_block {
             position: absolute;
+            width: 100%;
             top: -185px;
+            p {
+                text-align: center;
+            }
+        }
+    }
+    
+    p#header_title {
+        color: #414042;
+        font-size: 41px;
+    }
+    
+    div#header_word {
+      margin-top: 20px;
+      text-align: center;
+        font-family: 'true_l';
+        font-size: 26px;
+        span.header_highlight {
+            font-family: 'true_b';
+            color: #EC1C24;
         }
     }
     
