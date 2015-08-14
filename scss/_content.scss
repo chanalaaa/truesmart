@@ -9,7 +9,7 @@
     
     // Content //////////////////////////////////
     .content-block {
-       margin-bottom: 20px;
+        // margin-bottom: 20px;
     }
     
     .content-pre_block {
@@ -29,7 +29,8 @@
     
     .content-pre_info {
         position: relative;
-        padding: 20px;
+        padding: 20px 20px 0px;
+        height: 80%;
         p {
             letter-spacing: 1px;
             font-size: 18px;
@@ -38,10 +39,6 @@
     }
     
     // End Content /////////////////////////////////////
-
-
-
-
     // Content-toggle //////////////////////////////////
     .content-toggle {
         background: #1abc9c;
@@ -56,33 +53,47 @@
             list-style: none;
             margin: 0;
             padding: 0;
-            text-align: center;
-        }
-        ul li {
-            color: #fff;
-            //font-size: 2vmax;
-            font-size: 13px;
-            letter-spacing: 2px;
-            padding: 15px 0;
-            text-transform: uppercase;
-            &:hover {
-                background: #16a085;
-            }
-            @media #{$md} {
-                font-size: 16px;
-            }
-            @media #{$lg} {
-                font-size: 20px;
+            text-align: left;
+            li {
+                color: #fff;
+                width: 80%;
+                padding: 15px 0px;
+                margin-left: 35px;
+                padding-left: 1em;
+                text-indent: -.7em;
+                //font-size: 2vmax;
+                font-size: 13px;
+                letter-spacing: 2px;
+                &:before {
+                    content: "\2022";
+                    font-size: 40px;
+                    color: #EC1C24;
+                    position: relative;
+                    line-height: 0.1;
+                    padding-right: .25em;
+                     top: 0.25em;
+                }
+                &:hover {
+                   //background: #16a085;
+                }
+                @media #{$md} {
+                    font-size: 16px;
+                }
+                @media #{$lg} {
+                    font-size: 20px;
+                }
             }
         }
     }
     
     .content-toggle_btn {
         background: none;
+        position: relative;
         color: #333;
         width: 100%;
         text-align: right;
-        padding: 10px 0;
+        //padding: 10px 0;
+        padding: 0 30px;
         font-size: 25px;
         a {
             text-decoration: none;
