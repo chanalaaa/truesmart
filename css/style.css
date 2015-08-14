@@ -344,4 +344,31 @@ div#header_word_footer {
   text-align: center;
   color: #333; }
 
+.info {
+  width: 100%;
+  height: 1370px;
+  position: relative; }
+  .info .info1-block {
+    background-image: url("../img/content/info/info_img1.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    background-size: 1000px;
+    background-position: 37% 0px; }
+
+.info1_info {
+  width: 85%;
+  height: 400px;
+  text-align: center;
+  font-family: 'true_m';
+  font-size: 30px;
+  color: #FFF;
+  margin: 0 auto;
+  margin-top: 45%; }
+
 /*# sourceMappingURL=style.css.map */

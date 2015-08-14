@@ -1,4 +1,3 @@
-
 <!-- SMART CITY ************************** -->
 <div class="content-block">
     <div class="row">
@@ -266,6 +265,13 @@
     </div>
 </div>
 -->
+<div class="info">
+    <div class="info1-block">
+        <div class="info1_info">
+            <p>ด้วยโครงข่ายดิจิทัล บริการ และ โซลูชั่นที่ดีที่สุด จากทรู คือส่วนหนึ่งที่จะช่วย เปลี่ยนเมืองไทยให้เป็นเมืองสมาร์ท รองรับการใช้ชีวิตที่ใส่ใจตัวเองและ สังคม เพื่อการมีสมาร์ทไลฟ์แบบยั่งยืน</p>
+        </div>
+    </div>
+</div>
 <div class="about">blah blah blah</div>
 <!-- SCRIPT ******************************** -->
 <script type="text/javascript">
