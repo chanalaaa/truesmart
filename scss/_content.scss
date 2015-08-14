@@ -1,37 +1,49 @@
     @mixin bg_img($uri) {
         background-image: url($uri);
-        background-size: 100% 100%;
+        background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         width: 100%;
         height: 100%;
     }
-
+    
     // Content //////////////////////////////////
-    .content-pre {
-        width: 100%;
+    .content-block {
+       margin-bottom: 20px;
     }
     
     .content-pre_block {
+        @include bg_img("../img/content/1.jpg");
         max-width: 100%;
         height: 200px;
         position: relative;
-        background-color: gray;
+        //background-color: gray;
+        .content-pre_block_opacity {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.5);
+            width: 100%;
+            height: 100%;
+            //border-radius: 20px;
+        }
     }
     
     .content-pre_info {
+        position: relative;
         padding: 20px;
-        //height: 100%;
         p {
             letter-spacing: 1px;
             font-size: 18px;
             font-weight: normal;
         }
     }
-    // End Content //////////////////////////////////
+    
+    // End Content /////////////////////////////////////
 
-    // Menu //////////////////////////////////
-    .menu {
+
+
+
+    // Content-toggle //////////////////////////////////
+    .content-toggle {
         background: #1abc9c;
         display: none;
         width: 100%;
@@ -65,12 +77,12 @@
         }
     }
     
-    .menu-toggle {
+    .content-toggle_btn {
         background: none;
         color: #333;
         width: 100%;
         text-align: right;
-        padding: 20px 0 0;
+        padding: 10px 0;
         font-size: 25px;
         a {
             text-decoration: none;
@@ -87,4 +99,4 @@
         color: #333;
     }
     
-    // End Menu //////////////////////////////////
+    // End Content-toggle //////////////////////////////////

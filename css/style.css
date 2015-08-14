@@ -70,58 +70,69 @@ body {
 .columns {
   padding: 0px; }
 
-.content-pre {
-  width: 100%; }
+.content-block {
+  margin-bottom: 20px; }
 
 .content-pre_block {
+  background-image: url("../img/content/1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
   max-width: 100%;
   height: 200px;
-  position: relative;
-  background-color: gray; }
+  position: relative; }
+  .content-pre_block .content-pre_block_opacity {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100%; }
 
 .content-pre_info {
+  position: relative;
   padding: 20px; }
   .content-pre_info p {
     letter-spacing: 1px;
     font-size: 18px;
     font-weight: normal; }
 
-.menu {
+.content-toggle {
   background: #1abc9c;
   display: none;
   width: 100%; }
-  .menu a {
+  .content-toggle a {
     text-decoration: none;
     color: #fff; }
-  .menu ul {
+  .content-toggle ul {
     font-family: 'roboto', serif;
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center; }
-  .menu ul li {
+  .content-toggle ul li {
     color: #fff;
     font-size: 13px;
     letter-spacing: 2px;
     padding: 15px 0;
     text-transform: uppercase; }
-    .menu ul li:hover {
+    .content-toggle ul li:hover {
       background: #16a085; }
     @media screen and (min-width: 768px) {
-      .menu ul li {
+      .content-toggle ul li {
         font-size: 16px; } }
     @media screen and (min-width: 960px) {
-      .menu ul li {
+      .content-toggle ul li {
         font-size: 20px; } }
 
-.menu-toggle {
+.content-toggle_btn {
   background: none;
   color: #333;
   width: 100%;
   text-align: right;
-  padding: 20px 0 0;
+  padding: 10px 0;
   font-size: 25px; }
-  .menu-toggle a {
+  .content-toggle_btn a {
     text-decoration: none;
     color: #333; }
 
