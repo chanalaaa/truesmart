@@ -383,7 +383,7 @@ div#header_word_footer {
     width: 100%;
     height: 800px;
     position: absolute;
-    bottom: 0px;
+    bottom: -60px;
     z-index: 20;
     background-position: 62% 15%; }
 
@@ -413,5 +413,23 @@ div#header_word_footer {
   .info2_info #info2_highlight {
     font-family: 'true_b';
     font-size: 32px; }
+
+#info2_arrow_info {
+  margin-top: 30px; }
+
+#info2_arrow {
+  width: 33px;
+  height: 71px;
+  float: left;
+  margin-left: 50px;
+  margin-top: -40px; }
+
+.info2_form .info2_form-block {
+  width: 100%;
+  height: 382px;
+  background-color: #FFF;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 15px; }
 
 /*# sourceMappingURL=style.css.map */

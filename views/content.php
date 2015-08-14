@@ -289,7 +289,16 @@
                     <br> ให้เป็นสังคม
                     <br> Together, Smarter
                 </div>
-               ด้วยกัน
+                ด้วยกัน
+                <div id="info2_arrow_info">
+                    ส่งข้อความลุ้นรางวัล
+                    <br>สุด Smart ที่นี่
+                </div>
+                <img id="info2_arrow" src="img/content/info/info_arrow.png" alt="more...">
+                <div class="info2_form">
+                    <div class="info2_form-block">
+                    </div>
+                </div>
         </div>
     </div>
     <div class="info3-block">
