@@ -1,0 +1,25 @@
+@import 'reset';
+@import 'font-face';
+body {
+    font-family: 'supermarket';
+    
+}
+
+@mixin clearfix {
+    zoom: 1;
+    content: " ";
+    clear: both;
+}
+
+#wrapper{
+	overflow: hidden;
+	width: 100%;
+}
+
+$xxs: "screen and (max-width: 375px)";
+$xs: "screen and (max-width: 414px)";
+$md: "screen and (max-width: 768px)";
+
+@import 'nav';
+@import 'content';
+@import 'footer';
