@@ -1,19 +1,22 @@
-<div class="nav_main">
-    <div class="nav_area">
-        <ul>
-            <li id="li_nav1">
-                <div class="nav_menu"><img id="nav_icon" src="img/header_icon/nav_icon.png " alt="MENU">
-                    <p>Menu</p>
-                </div>
-            </li>
-        </ul>
-        <div id="nav_logo">
-            <img src="img/header_icon/logo_main.png " alt="PTT">
+<!-- Header ************************** -->
+<div class="header">
+    <div class="header-block_img">
+        <div class="header_img"></div>
+        <div class="header_logo">
+            <img src="img/header/header_logo.png">
         </div>
-        <div id="nav_btn">
-            <div class="nav_btn_block">
-                <a href="#" id="nav_btn1">LOGIN</a>
-                <a href="#" id="nav_btn2">REGISTER</a>
+    </div>
+    <div class="header_info">
+        <div class="header_info_block">
+            <p id="header_title">ครั้งแรกในไทยกับ
+                <br> สุดยอดเทคโนโลยีอันดับ 1 </p>
+            <div id="header_word">ที่จะ
+                <span class="header_highlight"> เปลี่ยนชีวิต เปลี่ยนเมืองไทย </span>
+                <br> ให้เป็น
+                <span class="header_highlight"> SMART LIFE, SMART CITY </span>
+            </div>
+            <div class="header_line"></div>
+            <div id="header_word_footer">จาก <span class="header_highlight_footer"> TRUE SMART</span>
             </div>
         </div>
     </div>

@@ -8,6 +8,9 @@ body {
 $sm: "screen and (min-width: 375px)";
 $md: "screen and (min-width: 768px)";
 $lg: "screen and (min-width: 960px)";
+$red_true: #EC1C24;
+$black_true: #414042;
+$gray_true: #6D6E71;
 @mixin clearfix {
     zoom: 1;
     content: " ";
@@ -29,12 +32,10 @@ $lg: "screen and (min-width: 960px)";
     }
 }
 
-.columns{
-  
+.columns {
     padding: 0px;
-  
 }
 
-//@import 'nav';
+@import 'header';
 @import 'content';
 //@import 'footer';
