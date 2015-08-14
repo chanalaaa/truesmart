@@ -39,7 +39,7 @@
 <script type="text/javascript">
 $(document).ready(function() {
     $(".menu-toggle a").click(function() {
-        $(".menu").slideToggle(700);
+        $(this).parent().parent().children(".menu").slideToggle(700);
     });
 });
 </script>
