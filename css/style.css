@@ -90,7 +90,8 @@ body {
 
 .header-block {
   width: 100%;
-  height: 580px; }
+  height: 580px;
+  position: relative; }
 
 .header_img {
   background-image: url("../img/header/header_img.png");
@@ -99,8 +100,11 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
+  position: absolute;
   width: 100%;
-  height: 345px; }
+  height: 345px;
+  background-size: 500%;
+  background-position: 59% 58%; }
 
 .content-pre_block {
   background-image: url("../img/content/1.jpg");

@@ -11,12 +11,16 @@
     .header-block {
         width: 100%;
         height: 580px;
+        position: relative;
     }
     
     .header_img {
-      @include bg_img("../img/header/header_img.png");
+        @include bg_img("../img/header/header_img.png");
+        position: absolute;
         width: 100%;
         height: 345px;
+            background-size: 500%;
+    background-position: 59% 58%;
         //background-color: gray;
     }
     
