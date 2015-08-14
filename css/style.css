@@ -58,6 +58,9 @@ body {
   overflow: hidden;
   width: 100%; }
 
+.row {
+  max-width: 100%; }
+
 /* 0, 640px */
 /* 641px, 1024px */
 /* 1025px, 1440px */

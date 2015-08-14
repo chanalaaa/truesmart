@@ -1,59 +1,37 @@
 <div class="row">
-    <div class="small-12 columns">
-        <div class="row">
-            <div class="small-12 columns">
-                <div class="menu">
-                    <ul>
-                        <a href="#">
-                            <li>I. Home</li>
-                        </a>
-                        <a href="#">
-                            <li>II. About</li>
-                        </a>
-                        <a href="#">
-                            <li>III. Services</li>
-                        </a>
-                        <a href="#">
-                            <li>IV. Blog</li>
-                        </a>
-                        <a href="#">
-                            <li>VI. Contact</li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="menu-toggle"> <a href="#"><i class="fa fa-angle-double-down"></i> v </a> </div>
-            </div>
+    <div class="small-12 medium-6  columns">
+        <div class="menu">
+            <ul>
+                <a href="#">
+                    <li>I. Home</li>
+                </a>
+                <a href="#">
+                    <li>II. About</li>
+                </a>
+                <a href="#">
+                    <li>III. Services</li>
+                </a>
+                <a href="#">
+                    <li>IV. Blog</li>
+                </a>
+                <a href="#">
+                    <li>VI. Contact</li>
+                </a>
+            </ul>
         </div>
+        <div class="menu-toggle"> <a href="#"><i class="fa fa-angle-double-down"></i> v </a> </div>
     </div>
-</div>
-
-<div class="row">
-    <div class="small-12 columns">
-        <div class="row">
-            <div class="small-12 columns">
-                <div class="menu">
-                    <ul>
-                        <a href="#">
-                            <li>I. Home</li>
-                        </a>
-                        <a href="#">
-                            <li>II. About</li>
-                        </a>
-                        <a href="#">
-                            <li>III. Services</li>
-                        </a>
-                        <a href="#">
-                            <li>IV. Blog</li>
-                        </a>
-                        <a href="#">
-                            <li>VI. Contact</li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="menu-toggle"> <a href="#"><i class="fa fa-angle-double-down"></i> v </a> </div>
-
-            </div>
+    <div class="small-12 medium-6 columns">
+        <div class="menu">
+            <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+                <li><a href="#">I. Home</a></li>
+                <li><a href="#">II. About</a></li>
+                <li><a href="#">III. Services</a></li>
+                <li><a href="#">IV. Blog</a></li>
+                
+            </ul>
         </div>
+        <div class="menu-toggle"> <a href="#"><i class="fa fa-angle-double-down"></i> v </a> </div>
     </div>
 </div>
 <div class="about">blah blah blah</div>
