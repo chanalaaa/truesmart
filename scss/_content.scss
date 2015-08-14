@@ -8,9 +8,9 @@
     }
     
     // Header //////////////////////////////////
-    .header-block {
+    .header-block_img {
         width: 100%;
-        height: 580px;
+        height: 430px;
         position: relative;
     }
     
@@ -23,12 +23,27 @@
         background-position: 57% 57%;
         //background-color: gray;
     }
-    .header_logo{
-      position: absolute;
-      width: 175px;
-      height: 52px;
-      right: 0;
-      margin: 20px;
+    
+    .header_logo {
+        position: absolute;
+        width: 175px;
+        height: 52px;
+        right: 0;
+        margin: 20px;
+    }
+    
+    .header_info {
+        font-family: 'true_b';
+        width: 100%;
+        position: relative;
+        p {
+            width: 100%;
+            color: #414042;
+            text-align: center;
+            font-size: 41px;
+            position: absolute;
+            top: -185px;
+        }
     }
     
     // End Header //////////////////////////////////

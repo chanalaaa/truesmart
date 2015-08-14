@@ -1,9 +1,13 @@
 <div class="header">
-    <div class="header-block">
+    <div class="header-block_img">
         <div class="header_img"></div>
         <div class="header_logo">
             <img src="img/header/header_logo.png">
         </div>
+    </div>
+    <div class="header_info">
+        <p>ครั้งแรกในไทยกับ<br>
+สุดยอดเทคโนโลยีอันดับ 1 </p>
     </div>
 </div>
 <div class="content-block">
