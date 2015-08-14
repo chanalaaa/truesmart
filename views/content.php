@@ -63,7 +63,12 @@
         <div class="small-12 columns">
             <div class="content-pre_block2">
                 <div class="content-pre_info">
-                    <p>ไชน่าโกเต็กซ์ตุ๊ดโจ๋เอาท์ นรีแพทย์มยุราภิรมย์ซีน โรแมนติก ไฮเทคโบกี้มหาอุปราชาวอล์คเซรามิก เรซินคอปเตอร์แอโรบิคมอลล์ เช็งเม้ง ฟอยล์โรลออนกับดักบลอนด์ หลวงปู่แคร์ด็อกเตอร์หลวงพี่</p>
+                    <img id="ct_logo" src="img/content/ct_logo2.png" alt="more...">
+                    <div id="ct_word">
+                        <span id="ct_highlight"> คำตอบของทุกปัญหา</span>
+                        <br> สำหรับธุรกิจโลจิสติกส์ ครอบคลุม
+                        <br> ไปจนถึงรถยนต์ส่วนตัว
+                    </div>
                 </div>
                 <div class="content-toggle_btn">
                     <a href="javascript:;"><img src="img/content/expand_btn.png" alt="more..."></a>
@@ -71,11 +76,13 @@
             </div>
             <div class="content-toggle">
                 <ul>
-                    <li><a href="#">I. Home</a></li>
-                    <li><a href="#">II. About</a></li>
-                    <li><a href="#">III. Services</a></li>
-                    <li><a href="#">IV. Blog</a></li>
-                    <li><a href="#">VI. Contact</a></li>
+                    <li>
+                        <div id="ctg_word">
+                            <div id="ctg_title">Smart Fleet</div>
+                            <p>
+                                ช่วยให้เจ้าของกิจการติดตามยานพาหนะ ของตัวเองได้แบบเรียลไทม์ ปลอดภัย ทั้งสินค้า บุคลากร ยานพาหนะ มีระบบตรวจสอบอัตราการสิ้นเปลือง น้ำมัน แจ้งและบันทึกสภาพเครื่องยนต์ ต่างๆ บันทึกหลักฐานทั้งภาพและข้อมูล การขับจากกล้องเมื่อมีอุบัติเหตุ พร้อม เซนเซอร์รอบรถ ป้องกันการขโมย โดย สามารถสั่งดับเครื่องได้จากทุกที่ผ่าน เครือข่าย TrueMove H </p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
