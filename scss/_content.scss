@@ -126,6 +126,14 @@
             height: 47px;
         }
     }
+
+    .content-pre_block3 {
+        @include content("../img/content/3.jpg");
+        #ct_logo {
+            width: 274px;
+            height: 58px;
+        }
+    }
     
     .content-pre_info {
         position: relative;
