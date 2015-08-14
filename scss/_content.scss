@@ -6,11 +6,14 @@
         width: 100%;
         height: 100%;
     }
+
+    $red_true: #EC1C24;
+    $black_true: #414042;
     
     // Header //////////////////////////////////
     .header {
         max-width: 100%;
-        height: 600px;
+        height: 580px;
     }
     
     .header-block_img {
@@ -44,7 +47,7 @@
         .header_info_block {
             position: absolute;
             width: 100%;
-            top: -185px;
+            top: -170px;
             p {
                 text-align: center;
             }
@@ -52,7 +55,7 @@
     }
     
     p#header_title {
-        color: #414042;
+        color: $black_true;
         font-size: 41px;
     }
     
@@ -63,10 +66,29 @@
         font-size: 26px;
         span.header_highlight {
             font-family: 'true_b';
-            color: #EC1C24;
+            color: $red_true;
         }
     }
+
+    .header_line{
+      width: 140px;
+      height: 6px;
+      background-color: $red_true;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
     
+    div#header_word_footer{
+      margin-top: 30px;
+      text-align: center;
+        font-family: 'true_l';
+        font-size: 31px;
+        span.header_highlight_footer {
+            font-family: 'true_b';
+            color: $black_true;
+            font-size: 30px;
+        }
+    }
     // End Header //////////////////////////////////
     // Content //////////////////////////////////
     .content-block {

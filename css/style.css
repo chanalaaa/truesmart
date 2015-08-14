@@ -90,7 +90,7 @@ body {
 
 .header {
   max-width: 100%;
-  height: 600px; }
+  height: 580px; }
 
 .header-block_img {
   width: 100%;
@@ -124,7 +124,7 @@ body {
   .header_info .header_info_block {
     position: absolute;
     width: 100%;
-    top: -185px; }
+    top: -170px; }
     .header_info .header_info_block p {
       text-align: center; }
 
@@ -140,6 +140,23 @@ div#header_word {
   div#header_word span.header_highlight {
     font-family: 'true_b';
     color: #EC1C24; }
+
+.header_line {
+  width: 140px;
+  height: 6px;
+  background-color: #EC1C24;
+  margin: 0 auto;
+  margin-top: 20px; }
+
+div#header_word_footer {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'true_l';
+  font-size: 31px; }
+  div#header_word_footer span.header_highlight_footer {
+    font-family: 'true_b';
+    color: #414042;
+    font-size: 30px; }
 
 .content-pre_block {
   background-image: url("../img/content/1.jpg");
