@@ -7,10 +7,23 @@
         height: 100%;
     }
     
+    // Header //////////////////////////////////
+    .header-block {
+        width: 100%;
+        height: 580px;
+    }
+    
+    .header_img {
+      @include bg_img("../img/header/header_img.png");
+        width: 100%;
+        height: 345px;
+        //background-color: gray;
+    }
+    
+    // End Header //////////////////////////////////
     // Content //////////////////////////////////
     .content-block {
         // margin-bottom: 20px;
-
     }
     
     .content-pre_block {
@@ -18,7 +31,6 @@
         max-width: 100%;
         height: 200px;
         position: relative;
-
         //background-color: gray;
         .content-pre_block_opacity {
             position: absolute;
@@ -34,7 +46,7 @@
         padding: 20px 20px 0px;
         height: 80%;
         p {
-          //font-family: 'true_m';
+            //font-family: 'true_m';
             letter-spacing: 1px;
             font-size: 18px;
             font-weight: normal;
@@ -74,10 +86,10 @@
                     position: relative;
                     line-height: 0.1;
                     padding-right: .25em;
-                     top: 0.25em;
+                    top: 0.25em;
                 }
                 &:hover {
-                   //background: #16a085;
+                    //background: #16a085;
                 }
                 @media #{$md} {
                     font-size: 16px;
@@ -96,11 +108,16 @@
         width: 100%;
         text-align: right;
         //padding: 10px 0;
-        padding: 0 30px;
+        padding: 0 10px;
         font-size: 25px;
+        margin-top: -10px;
         a {
             text-decoration: none;
             color: #333;
+        }
+        img {
+            width: 38px;
+            height: 38px;
         }
     }
     

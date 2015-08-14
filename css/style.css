@@ -88,6 +88,20 @@ body {
 .columns {
   padding: 0px; }
 
+.header-block {
+  width: 100%;
+  height: 580px; }
+
+.header_img {
+  background-image: url("../img/header/header_img.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  height: 345px; }
+
 .content-pre_block {
   background-image: url("../img/content/1.jpg");
   background-size: cover;
@@ -156,11 +170,15 @@ body {
   color: #333;
   width: 100%;
   text-align: right;
-  padding: 0 30px;
-  font-size: 25px; }
+  padding: 0 10px;
+  font-size: 25px;
+  margin-top: -10px; }
   .content-toggle_btn a {
     text-decoration: none;
     color: #333; }
+  .content-toggle_btn img {
+    width: 38px;
+    height: 38px; }
 
 .about {
   width: 100%;
