@@ -298,12 +298,13 @@
                 <div class="info2_form">
                     <div class="info2_form-block">
                         <div id="info2_form_title">อยากตะโกนบอกชาวทรูว่า </div>
-                        <span id="info2_form_line2">"เปลี่ยน
-                        </span>
                         <form>
-                            <input class="info2_input_box" type="text" placeholder="ข้อความ" value="">
-
-                            <input class="submit_btn" type="submit" value="SUBMIT">
+                            <div class="info2_line2">
+                                <div id="info2_form_line2">"เปลี่ยน</div>
+                                <input class="info2_input_word" type="text" placeholder="ข้อความ" value="">
+                            </div>
+                            <div id="info2_form_line3">เพื่อชีวิตที่สมาร์ทขึ้น”</div>
+                            <input class="info2_input_code" type="text" placeholder="รหัสพนักงาน" value="">
                         </form>
                     </div>
                 </div>
@@ -320,4 +321,5 @@ $(document).ready(function() {
         $(this).parent().parent().parent().children(".content-toggle").slideToggle(500);
     });
 });
+//<input class="submit_btn" type="submit" value="SUBMIT">
 </script>

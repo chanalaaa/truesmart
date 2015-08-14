@@ -34,8 +34,8 @@
     /* firefox 19+ */
     
     :-ms-input-placeholder {
-       text-align: center;
-       font-family: 'true_b';
+        text-align: center;
+        font-family: 'true_b';
     }
     /* ie */
     
@@ -43,6 +43,7 @@
         text-align: center;
         font-family: 'true_b';
     }
+    
     // Content //////////////////////////////////
     .content-block {
         // margin-bottom: 20px;
@@ -312,12 +313,43 @@
         font-size: 51px;
         margin-top: 20px;
         color: $red_true;
-        float: left;
+        //float: left;
+        padding-right: 20px;
     }
     
-    input.info2_input_box {
-        width: 37%;
-        float: right;
+    #info2_form_line3 {
+        font-family: 'true_bs';
+        font-size: 45px;
+        // margin-top: 20px;
+        color: $black_true;
+        text-align: center;
+    }
+    
+    .info2_line2 {
+        display: inline-flex;
+    }
+    
+    input.info2_input_word {
+        width: 22vw;
+        //float: right;
+        display: inline-block;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        margin-top: 17px;
+        padding: 0px 20px;
+        border: 0 solid #ffffff;
+        border-bottom: 4px solid #414042;
+        font: normal 28px/normal "true_m", Times, serif;
+        color: rgba(0, 0, 0, 0.9);
+        -o-text-overflow: clip;
+        text-overflow: clip;
+    }
+    
+    input.info2_input_code {
+        margin-top: 40px;
+        width: 60%;
+        //float: right;
         display: inline-block;
         -webkit-box-sizing: content-box;
         -moz-box-sizing: content-box;
