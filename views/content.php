@@ -297,6 +297,14 @@
                 <img id="info2_arrow" src="img/content/info/info_arrow.png" alt="more...">
                 <div class="info2_form">
                     <div class="info2_form-block">
+                        <div id="info2_form_title">อยากตะโกนบอกชาวทรูว่า </div>
+                        <span id="info2_form_line2">"เปลี่ยน
+                        </span>
+                        <form>
+                            <input class="info2_input_box" type="text" placeholder="ข้อความ" value="">
+
+                            <input class="submit_btn" type="submit" value="SUBMIT">
+                        </form>
                     </div>
                 </div>
         </div>
