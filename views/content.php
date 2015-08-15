@@ -306,9 +306,13 @@
                             </div>
                             <div id="info2_form_line3">เพื่อชีวิตที่สมาร์ทขึ้น”</div>
                             <input class="info2_input_code" type="text" placeholder="รหัสพนักงาน" value="">
-
                             <input class="submit_btn" type="submit" value="ส่ง">
                         </form>
+                        <div class="info2_line4_block">
+                        <div id="info2_line4">100 ข้อความที่ได้รับการคัดเลือก รับไปเลย!
+                        </div>
+                        <div id="info2_line4_bold">รางวัลสุด Smart จำนวน 100 รางวัล! </div>
+                        </div>
                     </div>
                 </div>
         </div>
@@ -324,5 +328,4 @@ $(document).ready(function() {
         $(this).parent().parent().parent().children(".content-toggle").slideToggle(500);
     });
 });
-
 </script>
