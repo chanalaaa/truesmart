@@ -326,7 +326,7 @@ input:-moz-placeholder {
   letter-spacing: .8px;
   padding-left: 30px; }
   #ctg_word p {
-    margin-top: 20px; }
+    margin-top: 15px; }
 
 #ctg_title {
   font-family: 'true_b';
@@ -353,6 +353,8 @@ input:-moz-placeholder {
   .content-toggle_btn img {
     width: 38px;
     height: 38px; }
+  .content-toggle_btn:active {
+    opacity: .7; }
 
 .info {
   width: 100%;
