@@ -267,6 +267,10 @@
          // z-index: 10;
          background-size: 1200px;
          background-position: 43% 15%;
+         
+         @media #{$md-1} {
+             background-position: 28% 15%;
+         }
          @media #{$md} {
              height: 1200px;
              background-size: 2000px;
@@ -299,6 +303,9 @@
          z-index: 20;
          //background-size: 1200px;
          background-position: 62% 15%;
+         @media #{$md-1} {
+             bottom: -65px;
+         }
          @media #{$md} {
              z-index: 20;
              background-position: 20% 0;
@@ -539,7 +546,7 @@
      //font-size: 4.5vmax;
      font-size: 20px;
      color: $black_true;
-      @media #{$md} {
+     @media #{$md} {
          font-size: 30px;
      }
  }
