@@ -265,6 +265,8 @@
     </div>
 </div>
 -->
+
+<!-- Info ************************** -->
 <div class="info">
     <div class="info1-block">
         <div class="info1_info">
@@ -330,7 +332,6 @@
     <div class="info3-block">
     </div>
 </div>
-<div class="about">blah blah blah</div>
 <!-- SCRIPT ******************************** -->
 <script type="text/javascript">
 $(document).ready(function() {
