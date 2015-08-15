@@ -5,7 +5,7 @@ body {
 }
 
 //$xxs: "screen and (max-width: 375px)";
-$sm: "screen and (min-width: 375px)";
+//$sm: "screen and (min-width: 375px)";
 $md: "screen and (min-width: 768px)";
 $lg: "screen and (min-width: 960px)";
 $red_true: #EC1C24;
@@ -35,7 +35,7 @@ $gray2_true: #D0D2D3;
 .row {
     max-width: 100%;
     @media #{$md} {
-        max-width: 90%;
+        //max-width: 90%;
     }
     @media #{$lg} {
         font-size: 80px;

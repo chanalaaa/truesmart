@@ -1,8 +1,10 @@
  // Header //////////////////////////////////
-
  .header {
      max-width: 100%;
      height: 580px;
+     @media #{$md} {
+         height: 1200px;
+     }
  }
  
  .header-block_img {
@@ -19,6 +21,9 @@
      background-size: 515%;
      background-position: 57% 57%;
      //background-color: gray;
+     @media #{$md} {
+         height: 1000px;
+     }
  }
  
  .header_logo {
@@ -27,6 +32,11 @@
      height: 52px;
      right: 0;
      margin: 20px;
+     @media #{$md} {
+         width: 389px;
+         height: 116px;
+         margin: 40px 20px;
+     }
  }
  
  .header_info {
@@ -40,12 +50,18 @@
          p {
              text-align: center;
          }
+         @media #{$md} {
+             top: 175px;
+         }
      }
  }
  
  p#header_title {
      color: $black_true;
      font-size: 41px;
+     @media #{$md} {
+         font-size: 90px;
+     }
  }
  
  div#header_word {
@@ -53,6 +69,10 @@
      text-align: center;
      font-family: 'true_l';
      font-size: 26px;
+     @media #{$md} {
+         font-size: 60px;
+         margin-top: 30px;
+     }
      span.header_highlight {
          font-family: 'true_b';
          color: $red_true;
@@ -65,6 +85,11 @@
      background-color: $red_true;
      margin: 0 auto;
      margin-top: 20px;
+     @media #{$md} {
+         width: 306px;
+         height: 13px;
+         margin-top: 30px;
+     }
  }
  
  div#header_word_footer {
@@ -72,10 +97,16 @@
      text-align: center;
      font-family: 'true_l';
      font-size: 31px;
+     @media #{$md} {
+         font-size: 70px;
+     }
      span.header_highlight_footer {
          font-family: 'true_b';
          color: $black_true;
          font-size: 30px;
+         @media #{$md} {
+             font-size: 50px;
+         }
      }
  }
  
