@@ -285,15 +285,15 @@
     #info2_arrow {
         width: 33px;
         height: 71px;
-        float: left;
-        margin-left: 50px;
+        //float: left;
+        margin-left: -165px;
         margin-top: -40px;
     }
     
     .info2_form {
         .info2_form-block {
             width: 100%;
-            height: 382px;
+            min-height: 382px;
             background-color: #FFF;
             margin: 0 auto;
             margin-top: 40px;
@@ -339,7 +339,7 @@
         margin-top: 17px;
         padding: 0px 20px;
         border: 0 solid #ffffff;
-        border-bottom: 4px solid #999999;
+        border-bottom: 4px solid $gray2_true;
         font: normal 28px/normal "true_m", Times, serif;
         color: rgba(0, 0, 0, 0.9);
         -o-text-overflow: clip;
@@ -347,21 +347,41 @@
     }
     
     input.info2_input_code {
-        margin-top: 40px;
+        
         width: 60%;
         //float: right;
-        display: inline-block;
+        display: block;
         -webkit-box-sizing: content-box;
         -moz-box-sizing: content-box;
         box-sizing: content-box;
-        margin-top: 17px;
+        margin: 0 auto;
+        margin-top: 30px;
         padding: 0px 20px;
         border: 0 solid #ffffff;
-        border-bottom: 4px solid #999999;
+        border-bottom: 4px solid $gray2_true;
         font: normal 28px/normal "true_m", Times, serif;
         color: rgba(0, 0, 0, 0.9);
         -o-text-overflow: clip;
         text-overflow: clip;
+
+    }
+    
+    input.submit_btn {
+        margin-top: 30px;
+        -webkit-border-radius: 26;
+        -moz-border-radius: 26;
+        border-radius: 26px;
+        color: #EC1C24;
+        font-family: "true_b";
+        font-size: 30px;
+        background-color: #fff;
+        padding: 3px 40px;
+        border: solid $gray2_true 1px;
+        text-decoration: none;
+        outline: none;
+        &:focus {
+           border: solid $black_true 1px;
+        }
     }
     
     // End Info1 //////////////////////////////////

@@ -291,10 +291,11 @@
                 </div>
                 ด้วยกัน
                 <div id="info2_arrow_info">
-                    ส่งข้อความลุ้นรางวัล
-                    <br>สุด Smart ที่นี่
+                    <p>
+                        ส่งข้อความลุ้นรางวัล
+                        <br>สุด Smart ที่นี่</p>
+                    <img id="info2_arrow" src="img/content/info/info_arrow.png" alt="more...">
                 </div>
-                <img id="info2_arrow" src="img/content/info/info_arrow.png" alt="more...">
                 <div class="info2_form">
                     <div class="info2_form-block">
                         <div id="info2_form_title">อยากตะโกนบอกชาวทรูว่า </div>
@@ -305,6 +306,8 @@
                             </div>
                             <div id="info2_form_line3">เพื่อชีวิตที่สมาร์ทขึ้น”</div>
                             <input class="info2_input_code" type="text" placeholder="รหัสพนักงาน" value="">
+
+                            <input class="submit_btn" type="submit" value="ส่ง">
                         </form>
                     </div>
                 </div>
@@ -321,5 +324,5 @@ $(document).ready(function() {
         $(this).parent().parent().parent().children(".content-toggle").slideToggle(500);
     });
 });
-//<input class="submit_btn" type="submit" value="SUBMIT">
+
 </script>
