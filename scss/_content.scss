@@ -257,7 +257,7 @@
      height: 1370px;
      position: relative;
      @media #{$md} {
-         height: 1800px;
+         height: 3000px;
      }
      .info1-block {
          @include bg_img("../img/content/info/info_img1.png");
@@ -269,8 +269,8 @@
          background-position: 43% 15%;
          @media #{$md} {
              height: 1200px;
-             background-size: 1500px;
-             background-position: 26% -10%;
+             background-size: 2000px;
+             background-position: 38% 13%;
          }
      }
      .info2-block {
@@ -284,10 +284,10 @@
          background-size: 1400px;
          background-position: 62% 20%;
          @media #{$md} {
-             bottom: 30px;
-             background-size: 1400px;
-             background-position: 70% 30%;
-             top: 480px;
+             height: 1760px;
+             top: 630px;
+             background-size: 2500px;
+             background-position: 58% 5%;
          }
      }
      .info3-block {
@@ -303,7 +303,7 @@
              z-index: 20;
              background-position: 20% 0;
              height: 1400px;
-             top: 270px;
+             bottom: 400px;
              background-size: 1200px;
          }
      }
@@ -320,9 +320,9 @@
      padding-top: 170px;
      //margin-top: 170px;
      @media #{$md} {
-         font-size: 70px;
+         font-size: 60px;
          height: 560px;
-         padding-top: 250px;
+         padding-top: 260px;
          z-index: 60;
          right: 0;
          left: 0;
@@ -333,7 +333,7 @@
          font-family: 'true_b';
          font-size: 32px;
          @media #{$md} {
-             font-size: 72px;
+             font-size: 62px;
          }
      }
  }
@@ -348,15 +348,27 @@
      margin: 0 auto;
      padding-top: 200px;
      //margin-top: 170px;
+     @media #{$md} {
+         padding-top: 420px;
+         font-size: 65px;
+         line-height: 65px;
+     }
      #info2_highlight {
          //margin-top: 20px;
          font-family: 'true_b';
          font-size: 32px;
+         @media #{$md} {
+             font-size: 72px;
+         }
      }
  }
  
  #info2_arrow_info {
      margin-top: 30px;
+     @media #{$md} {
+         margin-top: 60px;
+         padding-left: 100px;
+     }
  }
  
  #info2_arrow {
@@ -365,6 +377,9 @@
      //float: left;
      margin-left: -165px;
      margin-top: -40px;
+     @media #{$md} {
+         margin-right: 140px;
+     }
  }
  
  .info2_form {
@@ -383,6 +398,9 @@
      font-family: 'true_bs';
      font-size: 36px;
      color: $gray_true;
+     @media #{$md} {
+         font-size: 74px;
+     }
  }
  
  #info2_form_line2 {
@@ -392,6 +410,9 @@
      color: $red_true;
      //float: left;
      padding-right: 10px;
+     @media #{$md} {
+         font-size: 100px;
+     }
  }
  
  #info2_form_line3 {
@@ -400,6 +421,10 @@
      // margin-top: 20px;
      color: $black_true;
      text-align: center;
+     @media #{$md} {
+         margin-top: 10px;
+         font-size: 90px;
+     }
  }
  
  .info2_line2 {
@@ -423,6 +448,11 @@
      color: rgba(0, 0, 0, 0.9);
      -o-text-overflow: clip;
      text-overflow: clip;
+     @media #{$md} {
+         width: 30vw;
+         margin-top: 35px;
+         font-size: 40px;
+     }
  }
  
  input.info2_input_code {
@@ -441,6 +471,9 @@
      color: rgba(0, 0, 0, 0.9);
      -o-text-overflow: clip;
      text-overflow: clip;
+     @media #{$md} {
+         font-size: 40px;
+     }
  }
  
  input.submit_btn {
@@ -459,6 +492,11 @@
      &:active {
          border: solid $black_true 1px;
      }
+     @media #{$md} {
+         padding: 1px 50px;
+         margin-top: 50px;
+         font-size: 40px;
+     }
  }
  
  .info2_line4_block {
@@ -470,6 +508,11 @@
      font-size: 21px;
      text-align: center;
      color: $gray_true;
+     @media #{$md} {
+         line-height: 10px;
+         margin-top: 50px;
+         font-size: 40px;
+     }
  }
  
  #info2_line4_bold {
@@ -477,12 +520,18 @@
      font-size: 22px;
      text-align: center;
      color: $gray_true;
+     @media #{$md} {
+         font-size: 40px;
+     }
  }
  
  .infops_block {
      width: 100%;
      padding: 20px;
      text-align: left;
+     @media #{$md} {
+         line-height: 25px;
+     }
  }
  
  #infops_line_title {
@@ -490,6 +539,9 @@
      //font-size: 4.5vmax;
      font-size: 20px;
      color: $black_true;
+      @media #{$md} {
+         font-size: 30px;
+     }
  }
  
  #infops_line {
@@ -497,6 +549,9 @@
      //font-size: 4vmax;
      font-size: 18px;
      color: $black_true;
+     @media #{$md} {
+         font-size: 20px;
+     }
  }
  
  // End Info //////////////////////////////////
