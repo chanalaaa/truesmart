@@ -309,9 +309,19 @@
                             <input class="submit_btn" type="submit" value="ส่ง">
                         </form>
                         <div class="info2_line4_block">
-                        <div id="info2_line4">100 ข้อความที่ได้รับการคัดเลือก รับไปเลย!
+                            <div id="info2_line4">100 ข้อความที่ได้รับการคัดเลือก รับไปเลย!
+                            </div>
+                            <div id="info2_line4_bold">รางวัลสุด Smart จำนวน 100 รางวัล! </div>
                         </div>
-                        <div id="info2_line4_bold">รางวัลสุด Smart จำนวน 100 รางวัล! </div>
+                    </div>
+                </div>
+                <div class="infops">
+                    <div class="infops_block">
+                        <div id="infops_line_title">หมายเหตุ</div>
+                        <div id="infops_line">
+                            - ประกาศผลผู้ได้รับรางวัลในวันที่ 1 กันยายน 58
+                            <br>- รับของรางวัลที่ ทิพยเนตร หรือ สุรยศ ทีมแบรนด์ ชั้น 26 ตรงข้าม Lobby
+                            <br>- สงวนสิทธิ์รับของรางวัลภายในวันที่ 10 กันยายน 58
                         </div>
                     </div>
                 </div>
