@@ -257,7 +257,7 @@
      height: 1370px;
      position: relative;
      @media #{$md} {
-         height: 3000px;
+         height: 2500px;
      }
      .info1-block {
          @include bg_img("../img/content/info/info_img1.png");
@@ -303,7 +303,7 @@
              z-index: 20;
              background-position: 20% 0;
              height: 1400px;
-             bottom: 400px;
+             //bottom: 400px;
              background-size: 1200px;
          }
      }

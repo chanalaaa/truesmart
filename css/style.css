@@ -459,7 +459,7 @@ input:-moz-placeholder {
   position: relative; }
   @media screen and (min-width: 768px) {
     .info {
-      height: 3000px; } }
+      height: 2500px; } }
   .info .info1-block {
     background-image: url("../img/content/info/info_img1.png");
     background-size: cover;
@@ -514,7 +514,6 @@ input:-moz-placeholder {
         z-index: 20;
         background-position: 20% 0;
         height: 1400px;
-        bottom: 400px;
         background-size: 1200px; } }
 
 .info1_info {
@@ -736,6 +735,9 @@ input.submit_btn {
   zoom: 1;
   content: " ";
   clear: both; }
+  @media screen and (min-width: 768px) {
+    .footer {
+      margin-top: 10%; } }
   .footer .footer_block {
     background-image: url("../img/footer/footer_img.png ");
     background-size: cover;
