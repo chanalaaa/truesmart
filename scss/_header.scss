@@ -2,7 +2,7 @@
  .header {
      max-width: 100%;
      height: 580px;
-     @media #{$md-1} {
+     @media #{$md-600} {
          height: 660px;
      }
      @media #{$md} {
@@ -24,7 +24,7 @@
      background-size: 515%;
      background-position: 57% 57%;
      //background-color: gray;
-     @media #{$md-1} {
+     @media #{$md-600} {
          background-position: 57% 55%;
      }
      @media #{$md} {
@@ -56,7 +56,7 @@
          p {
              text-align: center;
          }
-         @media #{$md-1} {
+         @media #{$md-600} {
              margin-top: 30px;
          }
          @media #{$md} {
@@ -68,7 +68,7 @@
  p#header_title {
      color: $black_true;
      font-size: 41px;
-     @media #{$md-1} {
+     @media #{$md-600} {
          font-size: 51px;
      }
      @media #{$md} {
@@ -81,7 +81,7 @@
      text-align: center;
      font-family: 'true_l';
      font-size: 26px;
-     @media #{$md-1} {
+     @media #{$md-600} {
          font-size: 36px;
      }
      @media #{$md} {
@@ -100,7 +100,7 @@
      background-color: $red_true;
      margin: 0 auto;
      margin-top: 20px;
-     @media #{$md-1} {
+     @media #{$md-600} {
          width: 150px;
      }
      @media #{$md} {
@@ -115,7 +115,7 @@
      text-align: center;
      font-family: 'true_l';
      font-size: 31px;
-     @media #{$md-1} {
+     @media #{$md-600} {
          font-size: 41px;
      }
      @media #{$md} {
@@ -125,7 +125,7 @@
          font-family: 'true_b';
          color: $black_true;
          font-size: 30px;
-         @media #{$md-1} {
+         @media #{$md-600} {
              font-size: 40px;
          }
          @media #{$md} {

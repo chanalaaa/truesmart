@@ -268,7 +268,7 @@
          background-size: 1200px;
          background-position: 43% 15%;
          
-         @media #{$md-1} {
+         @media #{$md-600} {
              background-position: 28% 15%;
          }
          @media #{$md} {
@@ -303,7 +303,7 @@
          z-index: 20;
          //background-size: 1200px;
          background-position: 62% 15%;
-         @media #{$md-1} {
+         @media #{$md-600} {
              bottom: -65px;
          }
          @media #{$md} {
