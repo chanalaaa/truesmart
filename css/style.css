@@ -117,7 +117,8 @@ body {
       background-position: 57% 55%; } }
   @media screen and (min-width: 710px) {
     .header_img {
-      height: 1000px; } }
+      height: 1000px;
+      background-position: 57% 57%; } }
 
 .header_logo {
   position: absolute;
