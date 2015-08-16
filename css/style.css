@@ -431,6 +431,9 @@ input:-moz-placeholder {
   padding-left: 30px; }
   #ctg_word p {
     margin-top: 5px; }
+    @media screen and (min-width: 710px) {
+      #ctg_word p {
+        margin-top: 15px; } }
   @media screen and (min-width: 710px) {
     #ctg_word {
       font-size: 46px; } }

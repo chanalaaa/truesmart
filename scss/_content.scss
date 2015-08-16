@@ -197,6 +197,9 @@
      padding-left: 30px;
      p {
          margin-top: 5px;
+         @media #{$md} {
+         margin-top: 15px;
+     }
      }
      @media #{$md} {
          font-size: 46px;
