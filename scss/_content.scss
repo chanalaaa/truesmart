@@ -278,6 +278,9 @@
              background-size: 2000px;
              background-position: 38% 13%;
          }
+         @media #{$lg} {
+             background-position: 38% 0%;
+         }
      }
      .info2-block {
          @include bg_img("../img/content/info/info_img2.png");

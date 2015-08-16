@@ -504,6 +504,9 @@ input:-moz-placeholder {
         height: 1200px;
         background-size: 2000px;
         background-position: 38% 13%; } }
+    @media screen and (min-width: 960px) {
+      .info .info1-block {
+        background-position: 38% 0%; } }
   .info .info2-block {
     background-image: url("../img/content/info/info_img2.png");
     background-size: cover;
