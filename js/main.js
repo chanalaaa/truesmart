@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    //initial set
     if ($(window).width() <= 1000) {
         $time = 0;
     } else if ($(window).width() > 1000) {
