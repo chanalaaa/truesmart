@@ -196,7 +196,7 @@
      letter-spacing: .8px;
      padding-left: 30px;
      p {
-         margin-top: 15px;
+         margin-top: 5px;
      }
      @media #{$md} {
          font-size: 46px;
@@ -315,6 +315,9 @@
              height: 1400px;
              //bottom: 400px;
              background-size: 1200px;
+         }
+         @media #{$lg} {
+             background-position: 100% -25px;
          }
      }
  }

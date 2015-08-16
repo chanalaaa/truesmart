@@ -78,9 +78,6 @@ body {
 
 .row {
   max-width: 100%; }
-  @media screen and (min-width: 960px) {
-    .row {
-      font-size: 80px; } }
 
 .columns {
   padding: 0px; }
@@ -433,7 +430,7 @@ input:-moz-placeholder {
   letter-spacing: .8px;
   padding-left: 30px; }
   #ctg_word p {
-    margin-top: 15px; }
+    margin-top: 5px; }
   @media screen and (min-width: 710px) {
     #ctg_word {
       font-size: 46px; } }
@@ -550,6 +547,9 @@ input:-moz-placeholder {
         background-position: 20% 0;
         height: 1400px;
         background-size: 1200px; } }
+    @media screen and (min-width: 960px) {
+      .info .info3-block {
+        background-position: 100% -25px; } }
 
 .info1_info {
   width: 90%;
