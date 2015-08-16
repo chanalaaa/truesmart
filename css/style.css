@@ -669,7 +669,7 @@ input.info2_input_word {
     input.info2_input_word {
       width: 30vw;
       margin-top: 35px;
-      font-size: 40px; } }
+      font-size: 37px; } }
 
 input.info2_input_code {
   width: 60%;
@@ -688,7 +688,7 @@ input.info2_input_code {
   text-overflow: clip; }
   @media screen and (min-width: 768px) {
     input.info2_input_code {
-      font-size: 40px; } }
+      font-size: 37px; } }
 
 input.submit_btn {
   margin-top: 30px;
