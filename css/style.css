@@ -586,7 +586,7 @@ input:-moz-placeholder {
     .info2_info {
       padding-top: 420px;
       font-size: 65px;
-      line-height: 65px; } }
+      line-height: 60px; } }
   .info2_info #info2_highlight {
     font-family: 'true_b';
     font-size: 32px; }
@@ -599,7 +599,8 @@ input:-moz-placeholder {
   @media screen and (min-width: 710px) {
     #info2_arrow_info {
       margin-top: 60px;
-      padding-left: 100px; } }
+      padding-left: 100px;
+      line-height: 50px; } }
 
 #info2_arrow {
   width: 33px;
