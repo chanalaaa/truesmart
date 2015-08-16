@@ -1,3 +1,6 @@
+
+<!-- CONTENT ************************** -->
+
 <!-- SMART CITY ************************** -->
 <div class="content-block">
     <div class="row">
@@ -246,8 +249,6 @@
         </div>
     </div>
 </div>
-
-
 <!-- Info ************************** -->
 <div class="info">
     <div class="info1-block">
@@ -283,6 +284,7 @@
                 <div class="info2_form">
                     <div class="info2_form-block">
                         <div id="info2_form_title">อยากตะโกนบอกชาวทรูว่า </div>
+                        <!-- Info form ************************** -->
                         <form>
                             <div class="info2_line2">
                                 <div id="info2_form_line2">"เปลี่ยน</div>
@@ -299,6 +301,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Info footnote ************************** -->
                 <div class="infops">
                     <div class="infops_block">
                         <div id="infops_line_title">หมายเหตุ</div>
@@ -314,11 +317,5 @@
     <div class="info3-block">
     </div>
 </div>
-<!-- SCRIPT ******************************** -->
-<script type="text/javascript">
-$(document).ready(function() {
-    $(".content-toggle_btn a").click(function() {
-        $(this).parent().parent().parent().children(".content-toggle").slideToggle(500);
-    });
-});
-</script>
+
+<!-- END CONTENT ************************** -->

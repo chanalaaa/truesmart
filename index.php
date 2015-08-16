@@ -19,7 +19,7 @@
             <?php include("views/content.php"); ?>
                 <?php include("views/footer.php"); ?>
                     <script type="text/javascript" src="js/main.js"></script>
-                    <!-- end wrap -->
+                    
     </div>
 </body>
 
