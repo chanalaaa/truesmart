@@ -498,7 +498,7 @@ input:-moz-placeholder {
     background-position: 43% 15%; }
     @media screen and (min-width: 600px) {
       .info .info1-block {
-        background-position: 28% 15%; } }
+        background-position: 28% 0%; } }
     @media screen and (min-width: 710px) {
       .info .info1-block {
         height: 1200px;
@@ -518,6 +518,10 @@ input:-moz-placeholder {
     z-index: 30;
     background-size: 1400px;
     background-position: 62% 20%; }
+    @media screen and (min-width: 600px) {
+      .info .info2-block {
+        background-size: 1700px;
+        background-position: 55% 13%; } }
     @media screen and (min-width: 710px) {
       .info .info2-block {
         height: 1760px;
@@ -556,6 +560,12 @@ input:-moz-placeholder {
   color: #FFF;
   margin: 0 auto;
   padding-top: 170px; }
+  @media screen and (min-width: 600px) {
+    .info1_info {
+      z-index: 60;
+      right: 0;
+      left: 0;
+      position: absolute; } }
   @media screen and (min-width: 710px) {
     .info1_info {
       font-size: 60px;
@@ -595,7 +605,8 @@ input:-moz-placeholder {
         font-size: 72px; } }
 
 #info2_arrow_info {
-  margin-top: 30px; }
+  margin-top: 30px;
+  line-height: 25px; }
   @media screen and (min-width: 710px) {
     #info2_arrow_info {
       margin-top: 60px;

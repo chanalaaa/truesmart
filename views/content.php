@@ -246,25 +246,7 @@
         </div>
     </div>
 </div>
-<!--
-<div class="content-block">
-    <div class="row">
-        <div class="content-block">
-            <div class="small-12 columns">
-                <div class="content-toggle_btn"> <a href="#"> v </a> </div>
-                <div class="content-toggle">
-                    <ul class="">
-                        <li><a href="#">I. Home</a></li>
-                        <li><a href="#">II. About</a></li>
-                        <li><a href="#">III. Services</a></li>
-                        <li><a href="#">IV. Blog</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
--->
+
 
 <!-- Info ************************** -->
 <div class="info">
