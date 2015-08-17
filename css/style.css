@@ -675,7 +675,8 @@ input:-moz-placeholder {
 .info2_line2 {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
-  display: inline-flex; }
+  display: inline-flex;
+  display: -webkit-inline-box; }
 
 input.info2_input_word {
   width: 22vw;
