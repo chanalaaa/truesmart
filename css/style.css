@@ -107,15 +107,15 @@ body {
   position: absolute;
   width: 100%;
   height: 430px;
-  background-size: 515%;
-  background-position: 57% 57%; }
+  background-size: 310%;
+  background-position: 72% 26%; }
   @media screen and (min-width: 600px) {
     .header_img {
-      background-position: 57% 55%; } }
+      background-position: 72% 26%; } }
   @media screen and (min-width: 710px) {
     .header_img {
       height: 1000px;
-      background-position: 57% 57%; } }
+      background-position: 72% 28%; } }
 
 .header_logo {
   position: absolute;
@@ -799,7 +799,7 @@ input.submit_btn {
     background-position: right; }
     @media screen and (min-width: 710px) {
       .footer .footer_block {
-        height: 150px; } }
+        height: 240px; } }
 
 /* 
 by Chanala Wilangka

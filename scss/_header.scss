@@ -21,15 +21,15 @@
      position: absolute;
      width: 100%;
      height: 430px;
-     background-size: 515%;
-     background-position: 57% 57%;
+     background-size: 310%;
+     background-position: 72% 26%;
      //background-color: gray;
      @media #{$md-600} {
-         background-position: 57% 55%;
+         background-position: 72% 26%;
      }
      @media #{$md} {
          height: 1000px;
-         background-position: 57% 57%;
+         background-position: 72% 28%;
      }
  }
  
