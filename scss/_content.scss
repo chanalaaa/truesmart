@@ -198,8 +198,8 @@
      p {
          margin-top: 5px;
          @media #{$md} {
-         margin-top: 15px;
-     }
+             margin-top: 15px;
+         }
      }
      @media #{$md} {
          font-size: 46px;
@@ -389,6 +389,7 @@
  }
  
  #info2_arrow_info {
+     font-family: 'true_k';
      margin-top: 30px;
      line-height: 25px;
      @media #{$md} {

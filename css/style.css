@@ -69,6 +69,12 @@ table {
   src: url("fonts/tmedium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/tmedium-webfont.woff2") format("woff2"), url("fonts/tmedium-webfont.woff") format("woff"), url("fonts/tmedium-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'true_k';
+  src: url("fonts/trueketpro-webfont.eot");
+  src: url("fonts/trueketpro-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/trueketpro-webfont.woff2") format("woff2"), url("fonts/trueketpro-webfont.woff") format("woff"), url("fonts/trueketpro-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 body {
   font-family: 'true_m'; }
 
@@ -611,6 +617,7 @@ input:-moz-placeholder {
         font-size: 72px; } }
 
 #info2_arrow_info {
+  font-family: 'true_k';
   margin-top: 30px;
   line-height: 25px; }
   @media screen and (min-width: 710px) {
