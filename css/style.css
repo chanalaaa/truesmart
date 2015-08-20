@@ -575,8 +575,7 @@ input:-moz-placeholder {
   font-size: 30px;
   color: #FFF;
   margin: 0 auto;
-  padding-top: 220px;
-  letter-spacing: 1px; }
+  padding-top: 220px; }
   @media screen and (min-width: 600px) {
     .info1_info {
       font-size: 34px;
@@ -585,7 +584,8 @@ input:-moz-placeholder {
       left: 0;
       line-height: 35px;
       position: absolute;
-      padding-top: 260px; } }
+      padding-top: 260px;
+      letter-spacing: 1px; } }
   @media screen and (min-width: 780px) {
     .info1_info {
       font-size: 55px;
