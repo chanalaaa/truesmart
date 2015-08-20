@@ -26,16 +26,19 @@ $(document).ready(function() {
         if ($bool == 1) {
             $(this).children("img").css({
                // "-ms-transform": "rotate("+$roll+"deg)",
+               "transform": "rotate(180deg)",
                "-ms-transform": "rotate(180deg)",
-                "-webkit-transform:": "rotate(180deg)",
-                "transform": "rotate(180deg)"
+                "-webkit-transform:": "rotate(180deg)"
+                
+
             });
             $bool = 0;
         } else {
             $(this).children("img").css({
+                "transform": "rotate(0deg)",
                 "-ms-transform": "rotate(0deg)",
-                "-webkit-transform:": "rotate(0deg)",
-                "transform": "rotate(0deg)"
+                "-webkit-transform:": "rotate(0deg)"
+                
             });
 
             $bool = 1;
