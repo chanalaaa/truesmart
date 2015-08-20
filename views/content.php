@@ -298,9 +298,9 @@
                             <input class="submit_btn" type="button" value="ส่ง">
                         </form>
                         <div class="info2_line4_block">
-                            <div id="info2_line4">100 ข้อความที่ได้รับการคัดเลือก รับไปเลย!
+                            <div id="info2_line4">30 ข้อความที่ได้รับการคัดเลือก รับไปเลย!
                             </div>
-                            <div id="info2_line4_bold">รางวัลสุด Smart จำนวน 100 รางวัล! </div>
+                            <div id="info2_line4_bold">รางวัลสุด Smart จำนวน 30 รางวัล! </div>
                         </div>
                     </div>
                 </div>
