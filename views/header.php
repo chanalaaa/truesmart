@@ -13,7 +13,7 @@
             <div id="header_word">ที่จะ
                 <span class="header_highlight"> เปลี่ยนชีวิต เปลี่ยนเมืองไทย </span>
                 <br> ให้เป็น
-                <span class="header_highlight"> SMART LIFE, SMART CITY </span>
+                <span class="header_highlight2"> SMART LIFE, SMART CITY </span>
             </div>
             <div class="header_line"></div>
             <div id="header_word_footer">จาก <span class="header_highlight_footer"> TRUE SMART</span>

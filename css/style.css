@@ -75,6 +75,18 @@ table {
   src: url("fonts/trueketpro-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/trueketpro-webfont.woff2") format("woff2"), url("fonts/trueketpro-webfont.woff") format("woff"), url("fonts/trueketpro-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'true_st';
+  src: url("fonts/truerst-m_b-webfont.eot");
+  src: url("fonts/truerst-m_b-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/truerst-m_b-webfont.woff2") format("woff2"), url("fonts/truerst-m_b-webfont.woff") format("woff"), url("fonts/truerst-m_b-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'truer_stl';
+  src: url("fonts/truerst-mi_b-webfont.eot");
+  src: url("fonts/truerst-mi_b-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/truerst-mi_b-webfont.woff2") format("woff2"), url("fonts/truerst-mi_b-webfont.woff") format("woff"), url("fonts/truerst-mi_b-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 body {
   font-family: 'true_m'; }
 
@@ -174,6 +186,9 @@ div#header_word {
       margin-top: 30px; } }
   div#header_word span.header_highlight {
     font-family: 'true_b';
+    color: #EC1C24; }
+  div#header_word span.header_highlight2 {
+    font-family: 'true_st';
     color: #EC1C24; }
 
 .header_line {
@@ -785,6 +800,30 @@ input.submit_btn {
   @media screen and (min-width: 780px) {
     #infops_line {
       font-size: 20px; } }
+
+.img_sub_detail {
+  margin-top: 15px;
+  width: 70%; }
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  float: none;
+  margin: 0 auto;
+  width: 94px; }
+
+.ti91b1 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: 'true_m';
+  font-size: 24px; }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: 1px solid #d3d3d3;
+  background-color: #FFF;
+  background: none;
+  font-weight: normal;
+  color: #555555;
+  font-size: 16px; }
 
 .rotate {
   /*rotate info arrow btn */

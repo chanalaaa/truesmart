@@ -587,8 +587,37 @@
          font-size: 20px;
      }
  }
+
+ .img_sub_detail{
+  margin-top: 15px;
+  width: 70%;
+}
  
  // End Info //////////////////////////////////
+
+ // Dialog info //////////////////////////////////
+
+ .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  float: none;
+    margin: 0 auto;
+    width: 94px;
+}
+.ti91b1{
+  text-align:center;margin-bottom:10px;margin-top:10px;
+  font-family: 'true_m';
+  font-size: 24px;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #d3d3d3;
+    background-color: #FFF;
+    background: none;
+    font-weight: normal;
+    color: #555555;
+    font-size: 16px;
+}
+
+ // End Dialog info //////////////////////////////////
+ 
  // Rotate ////////////////////////////
  .rotate {
      /*rotate info arrow btn */
