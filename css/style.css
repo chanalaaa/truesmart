@@ -500,25 +500,29 @@ input:-moz-placeholder {
 
 .info {
   width: 100%;
-  height: 1370px;
+  height: 1420px;
   position: relative; }
   @media screen and (min-width: 780px) {
     .info {
       height: 2500px; } }
   .info .info1-block {
-    background-image: url("../img/content/info/info_img1.png");
+    background-image: url("../img/content/info/info_img.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     width: 100%;
-    height: 800px;
-    background-size: 1200px;
-    background-position: 43% 15%; }
+    height: 1600px;
+    position: absolute;
+    z-index: -10;
+    background-size: inherit;
+    top: -60px; }
     @media screen and (min-width: 600px) {
       .info .info1-block {
-        background-position: 28% 0%; } }
+        background-size: cover;
+        height: 1825px;
+        top: -115px; } }
     @media screen and (min-width: 780px) {
       .info .info1-block {
         height: 1200px;
@@ -528,12 +532,6 @@ input:-moz-placeholder {
       .info .info1-block {
         background-position: 38% 0%; } }
   .info .info2-block {
-    background-image: url("../img/content/info/info_img2.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
     width: 100%;
     height: 800px;
     position: absolute;
@@ -552,12 +550,6 @@ input:-moz-placeholder {
         background-size: 2500px;
         background-position: 58% 5%; } }
   .info .info3-block {
-    background-image: url("../img/content/info/info_img3.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
     width: 100%;
     height: 800px;
     position: absolute;
@@ -585,13 +577,14 @@ input:-moz-placeholder {
   font-size: 30px;
   color: #FFF;
   margin: 0 auto;
-  padding-top: 170px; }
+  padding-top: 220px; }
   @media screen and (min-width: 600px) {
     .info1_info {
       z-index: 60;
       right: 0;
       left: 0;
-      position: absolute; } }
+      position: absolute;
+      padding-top: 265px; } }
   @media screen and (min-width: 780px) {
     .info1_info {
       font-size: 60px;
@@ -617,9 +610,13 @@ input:-moz-placeholder {
   font-size: 30px;
   color: #FFF;
   margin: 0 auto;
-  padding-top: 200px; }
+  padding-top: 160px; }
+  @media screen and (min-width: 600px) {
+    .info2_info {
+      padding-top: 260px; } }
   @media screen and (min-width: 780px) {
     .info2_info {
+      padding-top: 260px;
       padding-top: 420px;
       font-size: 65px;
       line-height: 60px; } }
@@ -817,7 +814,9 @@ input.submit_btn {
   font-family: 'true_m';
   font-size: 24px; }
 
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
   border: 1px solid #d3d3d3;
   background-color: #FFF;
   background: none;
@@ -833,11 +832,14 @@ input.submit_btn {
 
 .footer {
   position: relative;
-  margin-top: 20%;
+  margin-top: 25%;
   width: 100%;
   zoom: 1;
   content: " ";
   clear: both; }
+  @media screen and (min-width: 600px) {
+    .footer {
+      margin-top: 48%; } }
   @media screen and (min-width: 780px) {
     .footer {
       margin-top: 10%; } }
@@ -849,7 +851,7 @@ input.submit_btn {
     width: 100%;
     height: 100%;
     width: 100%;
-    height: 110px;
+    height: 140px;
     background-position: right; }
     @media screen and (min-width: 780px) {
       .footer .footer_block {
@@ -857,7 +859,7 @@ input.submit_btn {
 
 /* 
 by Chanala Wilangka
-update-16/08/15
+update-20/08/15
 */
 
 /*# sourceMappingURL=style.css.map */

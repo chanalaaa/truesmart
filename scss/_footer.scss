@@ -1,8 +1,11 @@
 .footer {
     position: relative;
-    margin-top: 20%;
+    margin-top: 25%;
     width: 100%;
     @include clearfix;
+    @media #{$md-600} {
+        margin-top: 48%;
+    }
     @media #{$md} {
         margin-top: 10%;
     }
@@ -10,7 +13,7 @@
         //position:fixed;
         @include bg_img("../img/footer/footer_img.png ");
         width: 100%;
-        height: 110px;
+        height: 140px;
         background-position: right;
         @media #{$md} {
             height: 240px;
@@ -21,5 +24,5 @@
 
 /* 
 by Chanala Wilangka
-update-16/08/15
+update-20/08/15
 */

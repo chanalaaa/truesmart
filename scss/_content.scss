@@ -258,21 +258,27 @@
  // Info //////////////////////////////////
  .info {
      width: 100%;
-     height: 1370px;
+     height: 1420px;
      position: relative;
      @media #{$md} {
          height: 2500px;
      }
      .info1-block {
-         @include bg_img("../img/content/info/info_img1.png");
+         @include bg_img("../img/content/info/info_img.jpg");
          width: 100%;
-         height: 800px;
-         // position: absolute;
-         // z-index: 10;
-         background-size: 1200px;
-         background-position: 43% 15%;
+         height: 1600px;
+         position: absolute;
+         z-index: -10;
+         background-size: inherit;
+         top: -60px;
+         //margin-top: -50px;
+         //background-size: 1200px;
+         //background-position: 43% 15%;
          @media #{$md-600} {
-             background-position: 28% 0%;
+             //background-position: 100% 100%;
+             background-size: cover;
+             height: 1825px;
+             top: -115px;
          }
          @media #{$md} {
              height: 1200px;
@@ -284,7 +290,7 @@
          }
      }
      .info2-block {
-         @include bg_img("../img/content/info/info_img2.png");
+         //@include bg_img("../img/content/info/info_img2.png");
          width: 100%;
          height: 800px;
          position: absolute;
@@ -305,7 +311,7 @@
          }
      }
      .info3-block {
-         @include bg_img("../img/content/info/info_img3.png");
+         //@include bg_img("../img/content/info/info_img3.png");
          width: 100%;
          height: 800px;
          position: absolute;
@@ -337,13 +343,14 @@
      font-size: 30px;
      color: #FFF;
      margin: 0 auto;
-     padding-top: 170px;
+     padding-top: 220px;
      //margin-top: 170px;
      @media #{$md-600} {
          z-index: 60;
          right: 0;
          left: 0;
          position: absolute;
+         padding-top: 265px;
      }
      @media #{$md} {
          font-size: 60px;
@@ -372,9 +379,13 @@
      font-size: 30px;
      color: #FFF;
      margin: 0 auto;
-     padding-top: 200px;
+     padding-top: 160px;
      //margin-top: 170px;
+     @media #{$md-600} {
+         padding-top: 260px;
+     }
      @media #{$md} {
+         padding-top: 260px;
          padding-top: 420px;
          font-size: 65px;
          line-height: 60px;
@@ -579,45 +590,48 @@
      //font-size: 4vmax;
      font-size: 18px;
      color: $black_true;
-     ul{
-        list-style-type: disc;
-        padding-left: 15px;
+     ul {
+         list-style-type: disc;
+         padding-left: 15px;
      }
      @media #{$md} {
          font-size: 20px;
      }
  }
-
- .img_sub_detail{
-  margin-top: 15px;
-  width: 70%;
-}
+ 
+ .img_sub_detail {
+     margin-top: 15px;
+     width: 70%;
+ }
  
  // End Info //////////////////////////////////
-
  // Dialog info //////////////////////////////////
-
  .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
-  float: none;
-    margin: 0 auto;
-    width: 94px;
-}
-.ti91b1{
-  text-align:center;margin-bottom:10px;margin-top:10px;
-  font-family: 'true_m';
-  font-size: 24px;
-}
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-    border: 1px solid #d3d3d3;
-    background-color: #FFF;
-    background: none;
-    font-weight: normal;
-    color: #555555;
-    font-size: 16px;
-}
-
- // End Dialog info //////////////////////////////////
+     float: none;
+     margin: 0 auto;
+     width: 94px;
+ }
  
+ .ti91b1 {
+     text-align: center;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     font-family: 'true_m';
+     font-size: 24px;
+ }
+ 
+ .ui-state-default,
+ .ui-widget-content .ui-state-default,
+ .ui-widget-header .ui-state-default {
+     border: 1px solid #d3d3d3;
+     background-color: #FFF;
+     background: none;
+     font-weight: normal;
+     color: #555555;
+     font-size: 16px;
+ }
+ 
+ // End Dialog info //////////////////////////////////
  // Rotate ////////////////////////////
  .rotate {
      /*rotate info arrow btn */
@@ -625,5 +639,5 @@
      -ms-transform: rotate(180deg);
      -webkit-transform: rotate(180deg);
  }
-
-  // End Rotate ////////////////////////////
+ 
+ // End Rotate ////////////////////////////
