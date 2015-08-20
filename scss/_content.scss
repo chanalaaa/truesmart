@@ -277,9 +277,9 @@
          //background-position: 43% 15%;
          @media #{$md-600} {
              //background-position: 100% 100%;
-             background-size: cover;
+             background-size: 100% 96%;
              height: 1825px;
-             top: -115px;
+             top: -49px;
          }
          @media #{$md} {
              height: 2650px;
@@ -346,17 +346,19 @@
      padding-top: 220px;
      //margin-top: 170px;
      @media #{$md-600} {
+         font-size: 34px;
          z-index: 60;
          right: 0;
          left: 0;
-         line-height: 55px;
+         line-height: 35px;
          position: absolute;
-         padding-top: 230px;
+         padding-top: 260px;
      }
      @media #{$md} {
-         font-size: 58px;
+         font-size: 55px;
          height: 560px;
-         padding-top: 320px;
+         padding-top: 360px;
+         line-height: 50px;
          z-index: 60;
          right: 0;
          left: 0;
@@ -366,6 +368,9 @@
          margin-top: 20px;
          font-family: 'true_b';
          font-size: 32px;
+         @media #{$md} {
+             font-size: 36px;
+         }
          @media #{$md} {
              font-size: 60px;
          }
@@ -384,17 +389,21 @@
      //margin-top: 170px;
      @media #{$md-600} {
          padding-top: 260px;
+         font-size: 34px;
      }
      @media #{$md} {
          padding-top: 260px;
-         padding-top: 420px;
+         padding-top: 450px;
          font-size: 65px;
-         line-height: 60px;
+         line-height: 55px;
      }
      #info2_highlight {
          //margin-top: 20px;
          font-family: 'true_b';
          font-size: 32px;
+         @media #{$md-600} {
+             font-size: 34px;
+         }
          @media #{$md} {
              font-size: 72px;
          }
@@ -404,7 +413,7 @@
  #info2_arrow_info {
      font-family: 'true_k';
      margin-top: 30px;
-     line-height: 32px;
+     line-height: 34px;
      @media #{$md} {
          margin-top: 60px;
          padding-left: 100px;
