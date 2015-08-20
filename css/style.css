@@ -140,7 +140,7 @@ body {
   .header_info .header_info_block {
     position: absolute;
     width: 100%;
-    top: -200px; }
+    top: -230px; }
     .header_info .header_info_block p {
       text-align: center; }
     @media screen and (min-width: 600px) {
@@ -674,8 +674,7 @@ input:-moz-placeholder {
 .info2_line2 {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
-  display: inline-flex;
-  display: -webkit-inline-box; }
+  display: inline-flex; }
 
 input.info2_input_word {
   width: 22vw;
