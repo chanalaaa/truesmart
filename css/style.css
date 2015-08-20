@@ -578,7 +578,7 @@ input:-moz-placeholder {
       .info .info1-block {
         background-size: cover;
         height: 1825px;
-        top: 0px; } }
+        top: 20px; } }
     @media screen and (min-width: 780px) {
       .info .info1-block {
         height: 2650px;
