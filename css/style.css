@@ -436,7 +436,8 @@ input:-moz-placeholder {
             font-size: 50px; } }
       @media screen and (min-width: 780px) {
         .content-toggle ul li {
-          font-size: 16px; } }
+          font-size: 16px;
+          word-wrap: break-word; } }
       @media screen and (min-width: 960px) {
         .content-toggle ul li {
           font-size: 20px; } }
