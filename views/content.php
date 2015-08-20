@@ -211,7 +211,7 @@
                         <br> กับบ้านอย่างเต็มรูปแบบ
                     </div>
                 </div>
-                <div class="content-toggle_btn">
+                <div class="content-toggle_btn ">
                     <a href="javascript:;"><img src="img/content/expand_btn.png" alt="more..."></a>
                 </div>
             </div>

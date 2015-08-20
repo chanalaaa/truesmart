@@ -1,12 +1,12 @@
  // Header //////////////////////////////////
  .header {
      max-width: 100%;
-     height: 580px;
+     height: 560px;
      @media #{$md-600} {
          height: 660px;
      }
      @media #{$md} {
-         height: 1200px;
+         height: 1000px;
      }
  }
  
@@ -26,11 +26,11 @@
      //background-color: gray;
      @media #{$md-600} {
         height: 400px;
-         background-position: 71% 28%;
+         //background-position: 71% 28%;
      }
      @media #{$md} {
         height: 500px;
-         background-position: 72% 28%;
+         //background-position: 72% 28%;
      }
  }
  
@@ -54,15 +54,15 @@
      .header_info_block {
          position: absolute;
          width: 100%;
-         top: -170px;
+         top: -200px;
          p {
              text-align: center;
          }
          @media #{$md-600} {
-             margin-top: 5px;
+             margin-top: 30px;
          }
          @media #{$md} {
-             top: 175px;
+             top: -40px;
          }
      }
  }
