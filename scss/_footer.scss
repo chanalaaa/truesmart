@@ -4,10 +4,10 @@
     width: 100%;
     @include clearfix;
     @media #{$md-600} {
-        margin-top: 48%;
+        margin-top: 60%;
     }
     @media #{$md} {
-        margin-top: 5%;
+        margin-top: 14%;
     }
     .footer_block {
         //position:fixed;

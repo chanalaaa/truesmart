@@ -277,12 +277,14 @@
          //background-position: 43% 15%;
          @media #{$md-600} {
              //background-position: 100% 100%;
-             background-size: 100% 96%;
+             background-size: cover;
              height: 1825px;
-             top: -49px;
+             top: -10px;
          }
          @media #{$md} {
              height: 2650px;
+             background-size: cover;
+             top: -20px;
              //background-size: 2000px;
              //background-position: 38% 13%;
          }
@@ -344,6 +346,7 @@
      color: #FFF;
      margin: 0 auto;
      padding-top: 220px;
+     letter-spacing: 1px;
      //margin-top: 170px;
      @media #{$md-600} {
          font-size: 34px;
@@ -388,7 +391,7 @@
      padding-top: 160px;
      //margin-top: 170px;
      @media #{$md-600} {
-         padding-top: 260px;
+         padding-top: 325px;
          font-size: 34px;
      }
      @media #{$md} {
