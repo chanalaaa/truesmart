@@ -25,27 +25,6 @@ $(document).ready(function() {
           */
 
           $(this).children("img").toggleClass('rotate');
-        
-/*
-        if ($bool == 1 || $roll==0) {
-            $(this).children("img").css({
-               // "-ms-transform": "rotate("+$roll+"deg)",
-               "transform": "rotate(180deg)",
-               "-ms-transform": "rotate(180deg)",
-                "-webkit-transform:": "rotate(180deg)"
-            });
-            $bool = 0;
-             $roll = 180;
-        } else if($bool == 0 || $roll==180){
-            $(this).children("img").css({
-                "transform": "rotate(0deg)",
-                "-ms-transform": "rotate(0deg)",
-                "-webkit-transform:": "rotate(0deg)"
-                
-            });
 
-            $bool = 1;
-        }
-*/
     });
 });
