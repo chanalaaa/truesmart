@@ -34,7 +34,7 @@ $gray2_true: #D0D2D3;
 #wrapper {
     overflow: hidden;
     width: 100%;
-   @include single-box-shadow;
+   //@include single-box-shadow;
 }
 
 .row {
